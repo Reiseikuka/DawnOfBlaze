@@ -1,0 +1,471 @@
+fileFormatVersion: 2
+guid: 4d6307c7a0c425e49bba78c412e99207
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3744311945973521132
+    second: Erick_walk_down_1
+  - first:
+      213: -2499731743990882125
+    second: Erick_walk_1
+  - first:
+      213: -8396302945029330919
+    second: Erick_walk_down_2
+  - first:
+      213: -6527538793837308113
+    second: Erick_walk_3
+  - first:
+      213: 7565163045582656320
+    second: Erick_walk_down_3
+  - first:
+      213: -283153501808547940
+    second: Erick_walk_down_4
+  - first:
+      213: -3772722459248786158
+    second: Erick_walk_6
+  - first:
+      213: 8327992529373311985
+    second: Erick_walk_7
+  - first:
+      213: -7402707307180480701
+    second: Erick_walk_8
+  - first:
+      213: -8244282269160087127
+    second: Erick_walk_9
+  - first:
+      213: -960433821451801696
+    second: Erick_walk_10
+  - first:
+      213: 7037796857137133330
+    second: Erick_walk_11
+  - first:
+      213: -1519226856959822071
+    second: Erick_walk_up_1
+  - first:
+      213: 2745837950211648531
+    second: Erick_walk_13
+  - first:
+      213: 4021740326489926510
+    second: Erick_walk_up_2
+  - first:
+      213: 7540468675033054955
+    second: Erick_walk_15
+  - first:
+      213: 6532155730376866994
+    second: Erick_walk_up_3
+  - first:
+      213: 8859487148548862336
+    second: Erick_walk_up_4
+  - first:
+      213: -8991960559108771270
+    second: Erick_walk_18
+  - first:
+      213: 164675887125611645
+    second: Erick_walk_19
+  - first:
+      213: 3281807195034154204
+    second: Erick_walk_20
+  - first:
+      213: 672418984515705156
+    second: Erick_walk_21
+  - first:
+      213: 6719142462224222838
+    second: Erick_walk_22
+  - first:
+      213: 1121181652837017045
+    second: Erick_walk_23
+  - first:
+      213: 789089903238578079
+    second: Erick_walk_right_1
+  - first:
+      213: -433413391552239198
+    second: Erick_walk_25
+  - first:
+      213: -5935174641088563105
+    second: Erick_walk_right_2
+  - first:
+      213: -2522340881210179514
+    second: Erick_walk_right_3
+  - first:
+      213: -242996652209845459
+    second: Erick_walk_28
+  - first:
+      213: 2664668132978933766
+    second: Erick_walk_right_4
+  - first:
+      213: -3750637747719312361
+    second: Erick_walk_30
+  - first:
+      213: -481053009562611751
+    second: Erick_walk_31
+  - first:
+      213: -3281622863220107958
+    second: Erick_walk_32
+  - first:
+      213: 8829510623248083957
+    second: Erick_walk_33
+  - first:
+      213: 518086482635613901
+    second: Erick_walk_34
+  - first:
+      213: 6959542274459142026
+    second: Erick_walk_35
+  - first:
+      213: -2051786201407996093
+    second: Erick_walk_1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Erick_walk_down_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 64
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cead00c60e776f330800000000000000
+      internalID: 3744311945973521132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_down_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 64
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e5fef4f65a7b80800000000000000
+      internalID: -8396302945029330919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_down_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 64
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043dddf35bbdcf860800000000000000
+      internalID: 7565163045582656320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_down_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 64
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c972bcbe369021cf0800000000000000
+      internalID: -283153501808547940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_up_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 32
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9073da9093f9aeae0800000000000000
+      internalID: -1519226856959822071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_up_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 32
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bab43d48710d730800000000000000
+      internalID: 4021740326489926510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_up_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc35a62701e6aa50800000000000000
+      internalID: 6532155730376866994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_up_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 32
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081b46d3f9833fa70800000000000000
+      internalID: 8859487148548862336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ff162161963fa00800000000000000
+      internalID: 789089903238578079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58720e1c1602ada0800000000000000
+      internalID: -5935174641088563105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640850d1558defcd0800000000000000
+      internalID: -2522340881210179514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Erick_walk_right_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60043868c8dcaf420800000000000000
+      internalID: 2664668132978933766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

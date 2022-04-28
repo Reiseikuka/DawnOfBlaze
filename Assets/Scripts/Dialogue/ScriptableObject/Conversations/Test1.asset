@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181106512fa4b994c9720e8e520bb387, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  speaker1: {fileID: 11400000, guid: 30214747dc20eb84abe00494bfd2b1be, type: 2}
+  speaker2: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 30214747dc20eb84abe00494bfd2b1be, type: 2}
+    text: So...how have you been? Do you think the weather is going to be alright?
+    mood: 0
+  - character: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
+    text: Uhh I guess? I am no weather God to say how is it going to be y'know?
+    mood: 4
+  - character: {fileID: 11400000, guid: 30214747dc20eb84abe00494bfd2b1be, type: 2}
+    text: Yet one can hope for a great and beautiful sunny day that is worth having
+      ice cream with.
+    mood: 0
+  nextConversation: {fileID: 11400000, guid: 7a61f0296e1d31a48ad110a98cb8222f, type: 2}
+  ContieneInteraccionExtra: 0
+  InteraccionExtra: 0
