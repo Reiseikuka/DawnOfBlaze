@@ -71,7 +71,7 @@ public class DialogSystem : MonoBehaviour
         if(conversation == defaultConversation) return;
 
         EndConversation();
-
+        conversation = originalConversation;
         StopAllCoroutines();
         isWritingLine = false;
         
@@ -110,11 +110,12 @@ public class DialogSystem : MonoBehaviour
             StopAllCoroutines();
             //Display the full line
             currentSpeaker.Dialog = conversation.lines[activeLineIndex].text;
+            activeLineIndex++;
+            iconNext.SetActive(true);
         }
         else if(activeLineIndex < conversation.lines.Length)
         {
             DisplayLine();
-            activeLineIndex++;
         }
         else
           AdvanceConversation();
@@ -135,7 +136,8 @@ public class DialogSystem : MonoBehaviour
 
     private void SetDialog(Line line)
     {
-        SwitchSpeaker();
+        //This is slow. Unsure of another way to compare which GameObject should be active
+        SwitchSpeaker((line.character.fullName == speakerUIOne.characterName.text) ? speakerUIOne : speakerUITwo);
         
         currentSpeaker.Dialog = string.Empty;
         
@@ -146,10 +148,10 @@ public class DialogSystem : MonoBehaviour
         StartCoroutine(EffectTypewriter(line.text));
     }
 
-    void SwitchSpeaker()
+    void SwitchSpeaker(SpeakerUI speaker)
     {
         currentSpeaker.Hide();
-        currentSpeaker = (currentSpeaker == speakerUIOne) ? speakerUITwo : speakerUIOne;
+        currentSpeaker = speaker;
         currentSpeaker.Show();
     }
 
@@ -157,13 +159,13 @@ public class DialogSystem : MonoBehaviour
     {
         isWritingLine = true; 
         
-
         foreach(char character in text.ToCharArray())
         {
             currentSpeaker.Dialog += character;
             yield return new  WaitForSeconds(0.05f);
         }
         iconNext.SetActive(true);
+        activeLineIndex++;
         isWritingLine = false;
     }
 
