@@ -17,4 +17,4 @@ MonoBehaviour:
   portraitAngry: {fileID: 0}
   portraitHappy: {fileID: 0}
   portraitSad: {fileID: 0}
-  portraitThoughtful: {fileID: 0}
+  portraitThoughtful: {fileID: 21300000, guid: cf1791d3b6bfe694194162c885bea917, type: 3}

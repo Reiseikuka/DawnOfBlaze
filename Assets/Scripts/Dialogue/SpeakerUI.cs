@@ -43,22 +43,25 @@ public class SpeakerUI : MonoBehaviour
         set 
         {
             Sprite sprite;
-            if (value == Mood.Angry) {
-                sprite = speaker.portraitAngry;
-            } else if (value == Mood.Happy)
+            switch (value)
             {
-                sprite = speaker.portraitHappy;
-            } else if (value == Mood.Sad)
-            {
-                sprite = speaker.portraitSad;
-            } else if (value == Mood.Thoughtful)
-            {
-                sprite = speaker.portraitThoughtful;
+                case Mood.Angry:
+                    sprite = speaker.portraitAngry;
+                    break;
+                case Mood.Happy:
+                    sprite = speaker.portraitHappy;
+                    break;
+                case Mood.Sad:
+                    sprite = speaker.portraitSad;
+                    break;
+                case Mood.Thoughtful:
+                    sprite = speaker.portraitThoughtful;
+                    break;
+                default:
+                    sprite = speaker.portraitNeutral;
+                    break;
             }
-            else {
-                sprite = speaker.portraitNeutral;
-            }
-
+            
             /*Get the sprite if  the value being passed into Mood 
                 hereis equal  to   a correspondant mood.
                 Example: If mood is Angry, set the mugshot correspondant

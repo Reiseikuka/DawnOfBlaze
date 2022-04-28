@@ -12,17 +12,10 @@ public class DialogSystem : MonoBehaviour
     //Whats the conversation that is going to be displayed
     public Conversation defaultConversation;
     //The default Conversation when the first conversation is over
-
-
-    #region These GameObjects are only used to set the SpeakerUI. Are they necessary? Could just set SpeakerUI in inspector if that's what you're doing with GameObjects
-    public GameObject  speakerOne;
-    //Who is the first Speaker?
-    public GameObject  speakerTwo;
-    //Who is the second Speaker?
-    #endregion
-    private SpeakerUI  speakerUIOne;
+    Conversation originalConversation;
+    public SpeakerUI  speakerUIOne;
     //Reference of the Script that controls the UI of the first Speaker
-    private SpeakerUI  speakerUITwo;
+    public SpeakerUI  speakerUITwo;
     //Reference of the Script that controls the UI of the second  Speaker
     private SpeakerUI  currentSpeaker;
 
@@ -32,10 +25,11 @@ public class DialogSystem : MonoBehaviour
     
     private int activeLineIndex = 0;
     //Active line where we're at
-  
+
+    public NPCInteraction myInteractionRange;
     private bool conversationStarted = false;
     private bool isWritingLine = false;
-  
+    
     private void ChangeConversation(Conversation nextConversation)
     {
       conversationStarted = false;
@@ -53,30 +47,43 @@ public class DialogSystem : MonoBehaviour
         }
         else //Initialize the instance
             instance = this;
+
+        myInteractionRange = GetComponentInParent<NPCInteraction>();
+        originalConversation = conversation;
     }
 
+    private void OnEnable() {
+        myInteractionRange.onInteract += AdvanceLine;
+        myInteractionRange.onPlayerLeave += WalkedAwayFromConversation;
+    }
+    private void OnDisable() {
+        myInteractionRange.onInteract -= AdvanceLine;
+        myInteractionRange.onPlayerLeave -= WalkedAwayFromConversation;
+    }
     public void  Start()
     {
        iconNext.SetActive(false);
        //Hide the icon that is shown for the Player to indicate that the Dialogue can continue
-
-      speakerUIOne = speakerOne.GetComponent<SpeakerUI>();
-      speakerUITwo = speakerTwo.GetComponent<SpeakerUI>();
-      //Speaker set based on the conversation
     }
 
-    private void Update()
+    void WalkedAwayFromConversation()
     {
-         if(Input.GetKeyDown(KeyCode.Z))
-            AdvanceLine();
+        if(conversation == defaultConversation) return;
+
+        EndConversation();
+
+        StopAllCoroutines();
+        isWritingLine = false;
+        
     }
 
     private void EndConversation()
     {
-      conversation = defaultConversation;
-      conversationStarted = false;
-      speakerUIOne.Hide();
-      speakerUITwo.Hide();
+        conversation = defaultConversation;
+        conversationStarted = false;
+        speakerUIOne.Hide();
+        speakerUITwo.Hide();
+        iconNext.SetActive(false);
     }
 
     private void Initialize()
@@ -105,7 +112,10 @@ public class DialogSystem : MonoBehaviour
             currentSpeaker.Dialog = conversation.lines[activeLineIndex].text;
         }
         else if(activeLineIndex < conversation.lines.Length)
-          DisplayLine();
+        {
+            DisplayLine();
+            activeLineIndex++;
+        }
         else
           AdvanceConversation();
     }
@@ -113,7 +123,6 @@ public class DialogSystem : MonoBehaviour
     private void DisplayLine()
     {
         SetDialog(conversation.lines[activeLineIndex]);
-        activeLineIndex++;
     }
 
     private void AdvanceConversation()
@@ -122,8 +131,6 @@ public class DialogSystem : MonoBehaviour
             ChangeConversation(conversation.nextConversation);
         else
             EndConversation();
-        
-
     }
 
     private void SetDialog(Line line)
@@ -149,14 +156,19 @@ public class DialogSystem : MonoBehaviour
     private IEnumerator EffectTypewriter(string text)
     {
         isWritingLine = true; 
-        iconNext.SetActive(true);
+        
 
         foreach(char character in text.ToCharArray())
         {
             currentSpeaker.Dialog += character;
             yield return new  WaitForSeconds(0.05f);
         }
-        
+        iconNext.SetActive(true);
         isWritingLine = false;
+    }
+
+    public void ResetDialog()
+    {
+        conversation = originalConversation;
     }
 }
