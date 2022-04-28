@@ -102,7 +102,7 @@ public class DialogSystem : MonoBehaviour
             //Stop the coroutine from writing any more letters
             StopAllCoroutines();
             //Display the full line
-            currentSpeaker.Dialog = conversation.lines[activeLineIndex];
+            currentSpeaker.Dialog = conversation.lines[activeLineIndex].text;
         }
         else if(activeLineIndex < conversation.lines.Length)
           DisplayLine();

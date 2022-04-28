@@ -40557,8 +40557,6 @@ MonoBehaviour:
   defaultConversation: {fileID: 11400000, guid: 02214be7b726fd8429bb9151568ad9b0, type: 2}
   speakerOne: {fileID: 2082992325}
   speakerTwo: {fileID: 1102190459}
-  speakerUIOne: {fileID: 2082992327}
-  speakerUITwo: {fileID: 1102190461}
   iconNext: {fileID: 805461394}
 --- !u!1 &1145397105
 GameObject:
