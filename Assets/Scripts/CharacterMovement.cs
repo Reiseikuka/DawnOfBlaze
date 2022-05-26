@@ -16,6 +16,7 @@ public class CharacterMovement : MonoBehaviour
    private Vector2 input;
    //Vector that stores the player Input on the GetInput function
 
+   public VectorValue startingPosition;
 
     /*----- CHARACTER ANIMATION VARIABLES-----*/
   private Animator anim;
@@ -34,6 +35,7 @@ public class CharacterMovement : MonoBehaviour
 
         anim  = GetComponent<Animator>();
         //We get the Animator component
+        transform.position = startingPosition.initialValue;
    }
 
 
