@@ -4068,7 +4068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767505974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39814746, y: -1, z: -10}
+  m_LocalPosition: {x: -1.34, y: -1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4127,6 +4127,14 @@ PrefabInstance:
       propertyPath: fadeOutPanel
       value: 
       objectReference: {fileID: 8802464907884419092, guid: a901e0f59aa50fb4b96705cb895bad82, type: 3}
+    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
+      propertyPath: playerPosition.x
+      value: -12.01878
+      objectReference: {fileID: 0}
+    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
+      propertyPath: playerPosition.y
+      value: -4.150487
+      objectReference: {fileID: 0}
     - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
       propertyPath: m_RootOrder
       value: 4
