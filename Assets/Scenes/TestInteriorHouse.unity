@@ -4108,83 +4108,24 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!1001 &209148188772164280
-PrefabInstance:
+--- !u!114 &77173003521747233
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: fadeWait
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: fadeInPanel
-      value: 
-      objectReference: {fileID: 1959830730117675058, guid: 68aee5782e59ebf449ee13b013493013, type: 3}
-    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: fadeOutPanel
-      value: 
-      objectReference: {fileID: 8802464907884419092, guid: a901e0f59aa50fb4b96705cb895bad82, type: 3}
-    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: playerPosition.x
-      value: -12.01878
-      objectReference: {fileID: 0}
-    - target: {fileID: 117804495742369410, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: playerPosition.y
-      value: -4.150487
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -102.33836
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541264, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 209148188967541278, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
-      propertyPath: m_Name
-      value: Scene Transition
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a42bb7d0edc54874fa7e478a6b10fb29, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7605288602756037143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d55b4d9f3884e4783077bb54cf5581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: TestRoomScene
+  playerPosition: {x: -11.97921, y: -3.419213}
+  playerStorage: {fileID: 11400000, guid: 53e1a5e136a9be54eaa17c5126bdfc39, type: 2}
+  fadeInPanel: {fileID: 6882446882228891575, guid: b62ad1d6a7c57c64a83d131ae293776a, type: 3}
+  fadeOutPanel: {fileID: 1234343571733422634, guid: 0faa9e0e7a2f5c94d851a27f64055093, type: 3}
+  fadeWait: 0.33
 --- !u!1 &4827240411415380291
 GameObject:
   m_ObjectHideFlags: 0
@@ -9173,6 +9114,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!61 &5002770461406779287
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7605288602756037143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.23587656, y: 0.16880202}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.9962058, y: 0.66239595}
+  m_EdgeRadius: 0
 --- !u!50 &6695907357991051248
 Rigidbody2D:
   serializedVersion: 4
@@ -9338,3 +9305,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPosition: {fileID: 11400000, guid: 53e1a5e136a9be54eaa17c5126bdfc39, type: 2}
+--- !u!4 &6809932042491825523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7605288602756037143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.24, y: -5.84, z: -102.474365}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7605288602756037143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6809932042491825523}
+  - component: {fileID: 5002770461406779287}
+  - component: {fileID: 77173003521747233}
+  m_Layer: 0
+  m_Name: SceneTransition
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
