@@ -50,7 +50,7 @@ TagManager:
   - name: Solid  Objects
     uniqueID: 1848328733
     locked: 0
-  - name: Buildings
+  - name: BuildingsLower
     uniqueID: 1104233073
     locked: 0
   - name: NPCS
@@ -58,6 +58,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 4127883747
+    locked: 0
+  - name: BuildingsUpper
+    uniqueID: 1816936887
     locked: 0
   - name: UI
     uniqueID: 108890925
