@@ -21,7 +21,7 @@ public class CharacterMovement : MonoBehaviour
     /*----- CHARACTER ANIMATION VARIABLES-----*/
   private Animator anim;
   //Reference to the Animator
-  private bool moving;
+  public bool moving;
   //Bool referencing the Parameter of the Animator, for animation purposes
 
 
