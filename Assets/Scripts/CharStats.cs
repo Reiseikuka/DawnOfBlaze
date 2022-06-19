@@ -58,7 +58,8 @@ public class CharStats : MonoBehaviour
     //Name of the current armor  of the Character
 
     public Sprite charImage;
-
+    //Mugshot of the character
+    
     void Start()
     {
         expToNextLevel = new int[maxLevel];

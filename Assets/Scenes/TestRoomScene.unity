@@ -4077,7 +4077,7 @@ GameObject:
   - component: {fileID: 201877382}
   - component: {fileID: 201877381}
   m_Layer: 5
-  m_Name: 'Char3 Info '
+  m_Name: 'Amber Info '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14795,6 +14795,70 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262536374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262536376}
+  - component: {fileID: 262536375}
+  m_Layer: 0
+  m_Name: Darcy Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &262536375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262536374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfb73b26a163b04f82820c1fac755c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Darcy Milevski
+  playerLevel: 1
+  currentExp: 0
+  expToNextLevel: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  maxLevel: 50
+  baseEXP: 100
+  currentHP: 60
+  maxHP: 60
+  currentIP: 70
+  maxIP: 70
+  IpLvlBonus: 000000000000000005000000000000000a0000000000000000000000000000001400000000000000000000000000000028000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 22
+  defence: 16
+  speed: 22
+  constitution: 33
+  wisdom: 40
+  wpnpower: 20
+  armrpower: 10
+  equippedWpn: Tiger Claws
+  equippedArmr: Goth Dress
+  charImage: {fileID: 21300000, guid: f064ab198bed5a243ae027b47393545e, type: 3}
+--- !u!4 &262536376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262536374}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1090832997}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &272293349
 GameObject:
   m_ObjectHideFlags: 0
@@ -24460,7 +24524,7 @@ GameObject:
   - component: {fileID: 836047277}
   - component: {fileID: 836047276}
   m_Layer: 5
-  m_Name: Char2 Info
+  m_Name: Darious Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25621,7 +25685,7 @@ GameObject:
   - component: {fileID: 1035588293}
   - component: {fileID: 1035588292}
   m_Layer: 5
-  m_Name: Char4 Info
+  m_Name: Darcy Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42064,6 +42128,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1090832995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090832997}
+  - component: {fileID: 1090832996}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1090832996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090832995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8038d2580ee2e2b43b9c3642366a8631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats:
+  - {fileID: 1094728225}
+  - {fileID: 1515806641}
+  - {fileID: 1907989922}
+  - {fileID: 262536375}
+--- !u!4 &1090832997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090832995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 236.11142, y: 256.12656, z: -988.6403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1094728226}
+  - {fileID: 1515806642}
+  - {fileID: 1907989923}
+  - {fileID: 262536376}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1093210347
 GameObject:
   m_ObjectHideFlags: 0
@@ -42150,7 +42266,7 @@ GameObject:
   - component: {fileID: 1094728226}
   - component: {fileID: 1094728225}
   m_Layer: 0
-  m_Name: PlayerStats
+  m_Name: Erick Stats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42171,7 +42287,7 @@ MonoBehaviour:
   charName: Erick Brandt
   playerLevel: 1
   currentExp: 0
-  expToNextLevel: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  expToNextLevel: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   maxLevel: 50
   baseEXP: 100
   currentHP: 100
@@ -42196,12 +42312,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094728224}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 236.11142, y: 256.12656, z: -988.6403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1090832997}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1145397105
 GameObject:
@@ -44826,6 +44942,8 @@ CompositeCollider2D:
         Y: 283125052
       - X: 19999900
         Y: 282500174
+      - X: 17857365
+        Y: 283749988
       - X: 12500089
         Y: 286875071
       - X: 11875122
@@ -68471,7 +68589,7 @@ GameObject:
   - component: {fileID: 1364210232}
   - component: {fileID: 1364210231}
   m_Layer: 5
-  m_Name: Char Info
+  m_Name: Erick Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68771,6 +68889,70 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6855011, y: 1.067767}
   m_EdgeRadius: 0
+--- !u!1 &1515806640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515806642}
+  - component: {fileID: 1515806641}
+  m_Layer: 0
+  m_Name: 'Darious  Stats '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1515806641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515806640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfb73b26a163b04f82820c1fac755c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Darious Silva
+  playerLevel: 1
+  currentExp: 0
+  expToNextLevel: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  maxLevel: 50
+  baseEXP: 140
+  currentHP: 80
+  maxHP: 80
+  currentIP: 55
+  maxIP: 55
+  IpLvlBonus: 00000000000000000f0000000000000000000000000000001e000000000000000f000000050000000000000000000000140000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000f000000000000000000000000000000000000001900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 18
+  defence: 13
+  speed: 30
+  constitution: 18
+  wisdom: 23
+  wpnpower: 12
+  armrpower: 8
+  equippedWpn: Twin Knives
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: f064ab198bed5a243ae027b47393545e, type: 3}
+--- !u!4 &1515806642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515806640}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1090832997}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1523238278
 GameObject:
   m_ObjectHideFlags: 0
@@ -72125,6 +72307,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theMenu: {fileID: 480080796}
+  nameText:
+  - {fileID: 1629694631}
+  - {fileID: 710240067}
+  - {fileID: 1708954988}
+  - {fileID: 1305313987}
+  hpText:
+  - {fileID: 1777628498}
+  - {fileID: 705451607}
+  - {fileID: 1643963510}
+  - {fileID: 517675536}
+  ipText:
+  - {fileID: 372054308}
+  - {fileID: 1917266570}
+  - {fileID: 391674117}
+  - {fileID: 1253755642}
+  lvlText:
+  - {fileID: 185462163}
+  - {fileID: 103500253}
+  - {fileID: 1934077029}
+  - {fileID: 185190668}
+  expText:
+  - {fileID: 1261260427}
+  - {fileID: 1178288530}
+  - {fileID: 272293351}
+  - {fileID: 931182470}
+  expSlider:
+  - {fileID: 296029828}
+  - {fileID: 889399358}
+  - {fileID: 1320189259}
+  - {fileID: 2117687351}
+  charImage:
+  - {fileID: 1232930857}
+  - {fileID: 967543736}
+  - {fileID: 2131097700}
+  - {fileID: 783621774}
+  charStatHolder:
+  - {fileID: 1364210229}
+  - {fileID: 836047274}
+  - {fileID: 201877379}
+  - {fileID: 1035588290}
 --- !u!1 &1708954986
 GameObject:
   m_ObjectHideFlags: 0
@@ -72694,6 +72916,70 @@ Transform:
   - {fileID: 1145397106}
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1907989921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907989923}
+  - component: {fileID: 1907989922}
+  m_Layer: 0
+  m_Name: Amber Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1907989922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907989921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfb73b26a163b04f82820c1fac755c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Amber Schreiber
+  playerLevel: 1
+  currentExp: 0
+  expToNextLevel: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  maxLevel: 50
+  baseEXP: 100
+  currentHP: 150
+  maxHP: 150
+  currentIP: 50
+  maxIP: 50
+  IpLvlBonus: 000000000000000005000000000000000a0000000000000000000000000000001400000000000000000000000000000028000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 32
+  defence: 30
+  speed: 16
+  constitution: 26
+  wisdom: 26
+  wpnpower: 28
+  armrpower: 20
+  equippedWpn: Common Maze
+  equippedArmr: Personal Attire
+  charImage: {fileID: 21300000, guid: f064ab198bed5a243ae027b47393545e, type: 3}
+--- !u!4 &1907989923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907989921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1090832997}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917266568
 GameObject:
