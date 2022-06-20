@@ -42162,6 +42162,7 @@ MonoBehaviour:
   - {fileID: 1515806641}
   - {fileID: 1907989922}
   - {fileID: 262536375}
+  gameMenuOpen: 0
 --- !u!4 &1090832997
 Transform:
   m_ObjectHideFlags: 0
@@ -72307,46 +72308,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theMenu: {fileID: 480080796}
-  nameText:
-  - {fileID: 1629694631}
-  - {fileID: 710240067}
-  - {fileID: 1708954988}
-  - {fileID: 1305313987}
-  hpText:
-  - {fileID: 1777628498}
-  - {fileID: 705451607}
-  - {fileID: 1643963510}
-  - {fileID: 517675536}
-  ipText:
-  - {fileID: 372054308}
-  - {fileID: 1917266570}
-  - {fileID: 391674117}
-  - {fileID: 1253755642}
-  lvlText:
-  - {fileID: 185462163}
-  - {fileID: 103500253}
-  - {fileID: 1934077029}
-  - {fileID: 185190668}
-  expText:
-  - {fileID: 1261260427}
-  - {fileID: 1178288530}
-  - {fileID: 272293351}
-  - {fileID: 931182470}
-  expSlider:
-  - {fileID: 296029828}
-  - {fileID: 889399358}
-  - {fileID: 1320189259}
-  - {fileID: 2117687351}
-  charImage:
-  - {fileID: 1232930857}
-  - {fileID: 967543736}
-  - {fileID: 2131097700}
-  - {fileID: 783621774}
-  charStatHolder:
-  - {fileID: 1364210229}
-  - {fileID: 836047274}
-  - {fileID: 201877379}
-  - {fileID: 1035588290}
+  nameText: []
+  hpText: []
+  ipText: []
+  lvlText: []
+  expText: []
+  expSlider: []
+  charImage: []
+  charStatHolder: []
 --- !u!1 &1708954986
 GameObject:
   m_ObjectHideFlags: 0
