@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb4fc00ea2d4184fb8f798ca4c64300, type: 3}
+  m_Name: Darious Silva
+  m_EditorClassIdentifier: 
+  CharName: Darious
+  CharLastName: Silva
+  CharAge: 19
+  CharKind: Vulpex
+  CharClass: Adventurer
+  CharAnimPortrait: {fileID: 0}
+  CharHP: 80
+  CharIP: 60
+  CharCurrentLvl: 1
+  CharStrength: 19
+  CharDefence: 16
+  CharSpeed: 27
+  CharConstitution: 23
+  CharWisdom: 25
+  ParalysisRes: 12
+  BleedingRes: 12
+  PoisonedRes: 15
+  SleepingRes: 10
