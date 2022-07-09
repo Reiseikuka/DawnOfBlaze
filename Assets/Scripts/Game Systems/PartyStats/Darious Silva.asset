@@ -19,7 +19,9 @@ MonoBehaviour:
   CharClass: Adventurer
   CharAnimPortrait: {fileID: 0}
   CharHP: 80
+  CharMaxHP: 80
   CharIP: 60
+  CharMaxIP: 60
   CharCurrentLvl: 1
   CharStrength: 19
   CharDefence: 16

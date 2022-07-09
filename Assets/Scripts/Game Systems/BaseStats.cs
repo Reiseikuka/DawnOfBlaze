@@ -5,7 +5,7 @@ using UnityEditor;
 
 [CreateAssetMenu(fileName = "New Character Stats Info Creation", menuName = "CharacterStats")]
 
-public class CharactersStats : ScriptableObject
+public class BaseStats : ScriptableObject
 {
 
     //CharacterStats characterStats;
@@ -29,11 +29,27 @@ public class CharactersStats : ScriptableObject
       [Header("Basic Stats")]
 
       public int CharHP;
-      /*How much health the character has (if the character levels up,
-      it needs to be updated)*/
+      /*How much health the character has currently has (if the character levels up,
+      it needs to be updated).
+      This number will increase or decrease depending if the 
+      character heals up or receive damages in combat.*/
+      public int CharMaxHP;
+      /*The maximum or limit HP that the character has, depending
+        on the level that the character currently is. This would
+        increase per leveling up until reaching the Max Lvl 
+        Obtainable. Meaning that, if the character levels up,
+        it needs to be updated).
+        This will only update  once the character levels up */
       public int CharIP;
-      /*How much inner power the character has (if the character levels up,
+      /*How much inner power the character has currently (if the character levels up,
       it needs to be updated)*/
+      public int CharMaxIP;
+      /*The maximum or limit IP that the character has, depending
+        on the level that the character currently is. This would
+        increase per leveling up until reaching the Max Lvl 
+        Obtainable. Meaning that, if the character levels up,
+        it needs to be updated).
+        This will only update  once the character levels up */
       public int CharCurrentLvl;
       /*Current level of the character. It needs to be updated accordingly if
       the character levels up due side mission or through battles through the

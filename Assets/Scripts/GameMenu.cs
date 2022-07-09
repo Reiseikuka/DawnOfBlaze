@@ -12,11 +12,8 @@ public class GameMenu : MonoBehaviour
     public GameObject[] windows;
     //Reference to the windows of the Menu
 
-    private CharStats[] playerStats;
-    /*As soon as we open the Menu, show the stats that
-      the character currently has on the respective 
-      section in the Menu*/ 
 
+/*------------------------- GENERAL INFO SHOWCASE -------------------------*/
     public Text[] nameText, hpText, ipText, lvlText, expText;
     //Text Labels that are going to be shown on the Menu
     public Slider[] expSlider;
@@ -28,12 +25,24 @@ public class GameMenu : MonoBehaviour
     public GameObject[] charStatHolder;
     //If a character is inactive or hasn't been discovered, it should be inactive.
 
+
+/*------------------------- STATUS WINDOW INFO SHOWCASE -------------------------*/
+    public BaseStats[] stats;
+    /* Where we will list the Scriptable Objects that contain 
+       the attirbutes of each character */
+
     public GameObject[] statusButtons;
     /*Buttons used that allows the player to check a  character
      particular information*/
+ 
+    public Text statusName, statusHP, statusIP, statusStr, statusDef, statusSpd, statusConst, statusWis;
 
-    public Text statusName, statusHP, statusIP, statusStr, statusDef, statusSpd, statusConst, statusWis, statusWpn, statusArmr, statusExp;
-    //reference of the labels of the info
+  //public Text statusWpn, statusArmr;
+    /*reference of the labels of the info  related to 
+    current Armr and Wpn*/
+    
+    public Text statusExp;
+    //reference of the labels of the info  related to current experience
 
     public Image statusImage;
     //reference to the image/animation of the character
@@ -49,8 +58,8 @@ public class GameMenu : MonoBehaviour
         {
             if(theMenu.activeInHierarchy)
             {
-                //theMenu.SetActive(false);
-                //GameManager.instance.gameMenuOpen = false; 
+                theMenu.SetActive(false);
+                GameManager.instance.gameMenuOpen = false; 
                 
                 CloseMenu();
             }else
@@ -61,35 +70,32 @@ public class GameMenu : MonoBehaviour
             }
         }
         /* Check and see if the Menu is active at the moment,
-           and if it's deactivate it. And if not, activate it.
-        */
+           and if it's deactivate it. And if not, activate it. */
     }
 
     public void UpdateMainStats()
     {
-        playerStats = GameManager.instance.playerStats;
-
-        for(int i = 0; i < playerStats.Length; i++)
+        for(int i = 0; i < stats.Length; i++)
         {
-            if(playerStats[i].gameObject.activeInHierarchy)
+            if(stats[i].activeInHierarchy)
             {
-
                 charStatHolder[i].SetActive(true);
-                //If game object is active, update to the stats of the character
-                nameText[i].text = playerStats[i].charName;
-                hpText[i].text  = "HP: " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
-                ipText[i].text  = "IP: " + playerStats[i].currentIP + "/" + playerStats[i].maxIP;
-                lvlText[i].text = "Lvl: " + playerStats[i].playerLevel;
-                expText[i].text = "" + playerStats[i].currentExp + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                expSlider[i].value = playerStats[i].currentExp;
-                charImage[i].sprite = playerStats[i].charImage;
-            }else
+
+                charImage[i].sprite = stats[i].CharAnimPortrait; 
+                nameText[i].text = stats[i].CharName;
+                hpText[i].text = "HP: " + stats[i].CharHP.ToString() + "/" + stats[i].CharMaxHP.ToString();
+                ipText[i].text = "IP: " + stats[i].CharIP.ToString() + "/" + stats[i].CharMaxIP.ToString();
+                lvlText[i].text = stats[i].CharCurrentLvl.ToString();
+                //expText[i].text =  Need to create Level System that will include exp stuff;
+                //expSlider[i].maxValue =  Need to create Level System that will be necessary to adapt the Slider Max  Value
+                //expSlider[i].value =  Need to create Level System that will be necessary to adapt the Slider current value
+            } else
             {
                 charStatHolder[i].SetActive(false);
-                //If game object is inactive, deactivate the stats holder of said character
             }
         }
+        /*On the Main Screen, if character is part of the party/available,
+          then show the information on the Menu.*/
     }
     /* Probably will be used multiple times, since we want
        the stats to be updated when needed. For example, when
@@ -98,7 +104,7 @@ public class GameMenu : MonoBehaviour
 
     public void ToggleWindow(int windowNumber)
     {
-        UpdateMainStats();
+        //UpdateMainStats();
         //Keep information updated
 
         for(int i = 0; i < windows.Length; i++)
@@ -130,19 +136,23 @@ public class GameMenu : MonoBehaviour
     /*When we close the menu, next time the Menu is opened,
        we don't want any window opened.*/
 
+
     public void OpenStatus()
     {
         UpdateMainStats();
-        //Keep information updated
+
         StatusChar(0);
 
-        for(int i = 0; i < statusButtons.Length; i++)
+        for (int i = 0; i < statusButtons.Length; i++)
         {
-            statusButtons[i].SetActive(playerStats[i].gameObject.activeInHierarchy);
-            /*If stats object is active in the hierarchy, then our status button
-              should be active.*/
-            statusButtons[i].GetComponentInChildren<Text>().text = playerStats[i].charName;
+            statusButtons[i].SetActive(stats[i].activeInHierarchy);
+            statusButtons[i].GetComponentInChildren<Text>().text = stats[i].CharName;
+            /*Set active based on character stats
+              Each button will have the name of the corresponding character*/
         }
+        /*Loop through the buttons of Status window and  decide whether if they
+          are active(and if they are, update the labels correctly)*/
+        //update the information that is shown
     }
     /*Is going to be used to open the status field.
       Loop through the buttons and decide if is active  or inactive
@@ -150,27 +160,19 @@ public class GameMenu : MonoBehaviour
 
     public void StatusChar(int selected)
     {
-        statusName.text = playerStats[selected].charName;
-        statusHP.text  = playerStats[selected].currentHP + "/" + playerStats[selected].maxHP;
-        statusIP.text  = playerStats[selected].currentIP + "/" + playerStats[selected].maxIP;;
-        statusStr.text = playerStats[selected].strength.ToString();
-        statusDef.text = playerStats[selected].defence.ToString();
-        statusSpd.text = playerStats[selected].speed.ToString();
-        statusConst.text = playerStats[selected].constitution.ToString();
-        statusWis.text = playerStats[selected].wisdom.ToString();
+        statusImage.sprite = stats[selected].CharAnimPortrait;
+        statusName.text = stats[selected].CharName + "" + stats[selected].CharLastName;
+        statusHP.text = stats[selected].CharHP + "/" + stats[selected].CharMaxHP;
+        statusIP.text = stats[selected].CharIP + "/" + stats[selected].CharMaxIP;
+        statusStr.text = stats[selected].CharStrength.ToString();
+        statusDef.text = stats[selected].CharDefence.ToString();
+        statusSpd.text = stats[selected].CharSpeed.ToString();
+        statusConst.text = stats[selected].CharConstitution.ToString();
+        statusWis.text = stats[selected].CharWisdom.ToString();
+        //statusExp = ** Need to  do the Level System and control this **
+        //CharacterExpRequired = ** Need to  do the Level System and control this 
+        //** Need to see a way to have the Slider accordingly to the amount of Exp character has **
 
-        if(playerStats[selected].equippedWpn != "")
-        {
-            statusWpn.text = playerStats[selected].equippedWpn;
-        }
-        
-        if(playerStats[selected].equippedArmr != "")
-        {
-            statusArmr.text = playerStats[selected].equippedArmr;
-        }
-
-        statusExp.text = (playerStats[selected].expToNextLevel[playerStats[selected].playerLevel] - playerStats[selected].currentExp).ToString();
-        statusImage.sprite = playerStats[selected].charImage;
     }
     /* Control showing those buttons and the text that should 
        be on the window in relation to the characters*/

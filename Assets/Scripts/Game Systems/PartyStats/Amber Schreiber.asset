@@ -19,7 +19,9 @@ MonoBehaviour:
   CharClass: Alchemist
   CharAnimPortrait: {fileID: 0}
   CharHP: 250
+  CharMaxHP: 250
   CharIP: 160
+  CharMaxIP: 160
   CharCurrentLvl: 15
   CharStrength: 80
   CharDefence: 67

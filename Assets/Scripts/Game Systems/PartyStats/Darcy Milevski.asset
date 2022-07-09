@@ -19,7 +19,9 @@ MonoBehaviour:
   CharClass: Scholar
   CharAnimPortrait: {fileID: 0}
   CharHP: 280
+  CharMaxHP: 280
   CharIP: 210
+  CharMaxIP: 210
   CharCurrentLvl: 20
   CharStrength: 60
   CharDefence: 65

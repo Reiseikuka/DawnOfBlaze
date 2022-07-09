@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public CharStats[] playerStats;
+    public BaseStats[] playerStats;
     /*Array needed for the amount of characters
       Stats for  all our playable characters*/ 
 

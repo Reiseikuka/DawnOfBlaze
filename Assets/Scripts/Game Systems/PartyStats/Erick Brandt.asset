@@ -19,7 +19,9 @@ MonoBehaviour:
   CharClass: Ex-Soldier
   CharAnimPortrait: {fileID: 0}
   CharHP: 100
+  CharMaxHP: 100
   CharIP: 40
+  CharMaxIP: 40
   CharCurrentLvl: 1
   CharStrength: 25
   CharDefence: 22
