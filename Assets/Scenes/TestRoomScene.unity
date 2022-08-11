@@ -46185,8 +46185,6 @@ CompositeCollider2D:
         Y: 283125052
       - X: 19999900
         Y: 282500174
-      - X: 17857365
-        Y: 283749988
       - X: 12500089
         Y: 286875071
       - X: 11875122
@@ -72947,6 +72945,28 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1586740931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5799924473940869537, guid: 14edc21b2d145214ca9b0381bcaae0c6, type: 3}
+  m_PrefabInstance: {fileID: 5799924472496682475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1586740932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586740931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc57da8a197ae44da3dbdb3a803f77b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterStats:
+  - {fileID: 11400000, guid: d39d9e4483a93c947ab55e1e1e920e9c, type: 2}
+  - {fileID: 11400000, guid: 1fbad180605abd840bc557811a67dfad, type: 2}
+  - {fileID: 11400000, guid: d7831a63b50038d4a96ba445d88dfd74, type: 2}
+  - {fileID: 11400000, guid: ca5400cc023c33943a57ce05fb1934e1, type: 2}
 --- !u!4 &1602903254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4416004731657106377, guid: ca9f8ce040af9cd4786ef1a0a1c3de3b, type: 3}

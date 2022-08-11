@@ -3,30 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LevelUpSys : MonoBehaviour
+public class LevelUpSystem : MonoBehaviour
 {
 
     /*---------------------------- VARIABLES FOR XP PURPOSES ----------------------------*/
 
-    public int lvl;
+    public BaseStats[] CharacterStats;
+    //Array reference to the script BaseStats
+
+    private int lvl;
     //Current level of the Character. WILL change each time the character LEVELS UP.
 
-    public int maxLevel = 50;
+    private int maxLevel = 50;
     //To set the max Level allowed  to grow for all of the party members. It would be 50.
 
-    public int currentXP;
+    private int currentXP;
     /*Current experience that the characters has. This experience number,
      will change to a higher number once the character gains experience.
      currentExp  should reset to 0 each time it levels up.*/
 
-    public int requiredXP;
+    private int requiredXP;
     /*Amount of Experience needed to reach to the next level. Each level would require a different
       amount of XP points according to our formula */
 
 
     /*---------------------------- EXP SLIDER ----------------------------*/
-    public Slider XPSlider;
-    public Text LevelText;
+    //public Slider XPSlider;
+    //public Text LevelText;
     /*Current value of the Slider of the Experience Bar from the characters.
       This will change to a higher number once the character gains experience.
       Slider value  should reset to 0 each time it levels up.
@@ -37,14 +40,6 @@ public class LevelUpSys : MonoBehaviour
 
       void Start()
       {
-
-         XPSlider.maxValue = requiredXP;
-         /*Should get the Character Required Experience points
-           from the current level the Character is at. */ 
-         XPSlider.value = currentXP;
-        /*The current value of the Slider should be based on
-          the experience points the Character currently has. */ 
-
          requiredXP = CalculateRequiredXP();
         /*XP required to level up on the new Level should have the new XP value
            according to the formula.*/
@@ -80,12 +75,6 @@ public class LevelUpSys : MonoBehaviour
         /*If Character has arrived to the max Level, get currentXP to 0 since there would no longer 
           be XP to be gained. */
 
-
-          LevelText.text = lvl.ToString();
-          //Text of the Slider should be the one the character has.
-
-
-
           if(Input.GetKeyDown(KeyCode.T))
           {
               currentXP += 40;
@@ -110,10 +99,6 @@ public class LevelUpSys : MonoBehaviour
               leave only the leftover XP (if the character gained 120 XP and needed only
               100 to level up, it should keep only  20 on the next level).*/
 
-            XPSlider.value = currentXP;
-            /*We should make sure the current bar of the slider is filled accordingly to the
-              currentXP the character has. */ 
-
             GetComponent<BaseStats>().UpdateCharStats(1);
             /*This is for testing purposes. We call the function of UpdateChar Stats from the BaseStats script, we then
               send the number of Erick(1)   so it can make the Stats Update process that is on BaseStats script. 
@@ -122,9 +107,6 @@ public class LevelUpSys : MonoBehaviour
             requiredXP = CalculateRequiredXP();
            /*XP required to level up on the new Level should have the new XP value
              according to the formula.*/
-
-            XPSlider.maxValue = requiredXP;
-            /*We should make sure the maxValue of the Slider updates.*/ 
       }
 
     /*--------------------- CALCULATING THE EXPERIENCE --------------------*/

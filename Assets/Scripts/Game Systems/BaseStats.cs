@@ -21,11 +21,6 @@ public class BaseStats : ScriptableObject
     public const int Darcy_Milevski = 4;
     /* Each of the character are equivalent to an ID to  be referenced of in  the array
        switch case for the characters would go inside for each loop*/
-  
-     //CharacterStats[] character; 
-     /* I created this variable out of my guess on the switch case in LevelUp function, I which is creating another variable that uses CharacterStats variable 
-        (which refers to the array of the scriptable object) and as such, considering each name of the character has an ID,
-         would get the name accordingly to said name...but that seems like is not the case */
 
 
     /*---------------------------- VARIABLES FOR STATS UPDATE PURPOSES ----------------------------*/
@@ -95,6 +90,7 @@ public class BaseStats : ScriptableObject
     [Tooltip("Current level of the character. It needs to be updated accordingly if the character levels up due side mission or through battles through the game of character that it is. Has to be updated accordingly.")]
       public int CharCurrentLvl;
 
+      public int CharCurrentExp;
 
       [Header("Battle Stats")]
 
@@ -181,7 +177,7 @@ public class BaseStats : ScriptableObject
         //Character is more prone to have a bigger HP.
           private int CharIPAffinity = 8;
         //Character is more prone to have a bigger IP.
-          private int CharStrengthAffinity = 4;
+        //  private int CharStrengthAffinity = 4;
         //Character is more prone to have a bigger Strength than the rest.
           private int CharDefenceAffinity = 4;
         //Character is more prone to have a bigger Defence than the rest.
