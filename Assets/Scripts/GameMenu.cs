@@ -54,7 +54,7 @@ public class GameMenu : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown("space"))
+        if(Input.GetKeyDown("escape"))
         {
             if(theMenu.activeInHierarchy)
             {
@@ -77,7 +77,7 @@ public class GameMenu : MonoBehaviour
     {
         for(int i = 0; i < stats.Length; i++)
         {
-            if(stats[i].activeInHierarchy)
+            if(charStatHolder[i].activeInHierarchy)
             {
                 charStatHolder[i].SetActive(true);
 
@@ -145,7 +145,7 @@ public class GameMenu : MonoBehaviour
 
         for (int i = 0; i < statusButtons.Length; i++)
         {
-            statusButtons[i].SetActive(stats[i].activeInHierarchy);
+            statusButtons[i].SetActive(charStatHolder[i].activeInHierarchy);
             statusButtons[i].GetComponentInChildren<Text>().text = stats[i].CharName;
             /*Set active based on character stats
               Each button will have the name of the corresponding character*/

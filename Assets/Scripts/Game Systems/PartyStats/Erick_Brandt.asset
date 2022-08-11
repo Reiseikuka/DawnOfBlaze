@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb4fc00ea2d4184fb8f798ca4c64300, type: 3}
+  m_Name: Erick_Brandt
+  m_EditorClassIdentifier: 
+  CharName: Erick
+  CharLastName: Brandt
+  CharAge: 29
+  CharKind: Human
+  CharClass: Ex-Soldier
+  CharAnimPortrait: {fileID: 0}
+  CharHP: 100
+  CharMaxHP: 100
+  CharIP: 40
+  CharMaxIP: 40
+  CharCurrentLvl: 1
+  CharStrength: 25
+  CharDefence: 22
+  CharSpeed: 20
+  CharConstitution: 22
+  CharWisdom: 20
+  ParalysisRes: 15
+  BleedingRes: 15
+  PoisonedRes: 12
+  SleepingRes: 12
