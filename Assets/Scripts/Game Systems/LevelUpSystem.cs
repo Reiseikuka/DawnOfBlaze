@@ -89,6 +89,11 @@ public class LevelUpSystem : MonoBehaviour
           lvl[3] = CharacterStats[3].CharCurrentLvl;
           //Should be holding Darcy's current level from her Scriptable Object.
 
+           Debug.Log("Erick's current lvl: " + lvl[0]);
+           Debug.Log("Darious current lvl: " + lvl[1]);
+           Debug.Log("Amber's current lvl: " + lvl[2]);
+           Debug.Log("Darcy's current lvl: " + lvl[3]);
+
           currentXP[0] = CharacterStats[0].CharCurrentExp;
           //Should be holding Erick's current XP points from his Scriptable Object.
           currentXP[1] = CharacterStats[1].CharCurrentExp;
@@ -98,15 +103,23 @@ public class LevelUpSystem : MonoBehaviour
           currentXP[3] = CharacterStats[3].CharCurrentExp;
           //Should be holding Darcy's current XP points from her Scriptable Object.
 
+           Debug.Log("Erick's current XP: " + currentXP[0]);
+           Debug.Log("Darious current XP: " + currentXP[1]);
+           Debug.Log("Amber's current XP: " + currentXP[2]);
+           Debug.Log("Darcy's current XP: " + currentXP[3]);
 
-          int i = 0;
-          while(i <= 3)
-          {
-              requiredXP[i] = CalculateRequiredXP(lvl[i]);
-              /*XP required to level up on the new Level should have the new XP value
-                according to the formula.*/
-                i++;
-          }
+          requiredXP[0] = CalculateRequiredXP(lvl[0]);
+          requiredXP[1] = CalculateRequiredXP(lvl[1]);
+          requiredXP[2] = CalculateRequiredXP(lvl[2]);
+          requiredXP[3] = CalculateRequiredXP(lvl[3]);
+
+           Debug.Log("Erick's required XP for next LVL: " + requiredXP[0]);
+           Debug.Log("Darious required XP for next LVL: " + requiredXP[1]);
+           Debug.Log("Amber's required XP for next LVL: " + requiredXP[2]);
+           Debug.Log("Darcy's required XP for next LVL: " + requiredXP[3]);
+          /*XP required to level up on the new Level should have the new XP value
+            according to the formula.*/
+          
           /*What I'm trying to attempt is to get the RequiredXP needed for each of the
             Characters, so what I attempting is to send the Current Level of the character
             so it can make the calculations and set it up to the slot corresponding to
@@ -164,8 +177,6 @@ public class LevelUpSystem : MonoBehaviour
                   and change the amount needed for the upcoming level accordingly. Also, do not level up the Character 
                   if said character has reached up to level 50(maxLevel). */
           }
-
-
 
           if(Input.GetKeyDown(KeyCode.T))
           {
