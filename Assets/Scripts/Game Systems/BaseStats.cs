@@ -98,7 +98,8 @@ public class BaseStats : ScriptableObject
       public int CharConstitution;
 
     ///<summary>
-    ///Determines how  effective the Magical Attacks would be. This number 
+    ///Determines how  effective the Magical Attacks would be as well with how
+       //resistence the character has to magical attacks as well. This number 
       //will increase through a range depending of the kind of 
       //character that it is. Has to be updated accordingly
     ///</summary>

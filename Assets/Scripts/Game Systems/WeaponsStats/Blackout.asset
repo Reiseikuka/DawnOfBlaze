@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Blackout
+  m_EditorClassIdentifier: 
+  id: 37
+  equipmentName: Blackout
+  value: 0
+  icon: {fileID: 21300000, guid: efb1f4ada1d56a245b1df7666429149b, type: 3}
+  description: "One mind is good, two minds are more helpful, \xBFthree? \u2026now
+    thats a team. Don\u2019t let your sight trick you, these dual daggers might not
+    be the sharpest of the toolbox, but it  seems that inherit the energy from the
+    soul of the wielder enough to make them as dangerous as a draconian weapon. After
+    a successful  button press, Darious  would have the chance to get the foe sleeping
+    for some turns and increased damage for  him for some turns."
+  type: 2
+  damageModifier: 44
+  armorModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  poisonModifier: 0
+  sleepModifier: 110

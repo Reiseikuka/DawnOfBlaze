@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Bloodsurge Mace
+  m_EditorClassIdentifier: 
+  id: 45
+  equipmentName: Bloodsurge Mace
+  value: 0
+  icon: {fileID: 21300000, guid: 664cb57e212afb74faf3bada9929c863, type: 3}
+  description: "Along with the recipe, there is a note that says the following message: 
+    \u201CWho believe is in freedom when in reality you end up coming up being a
+    slave of a single provocation? If you have the character to  use your will at
+    the right moment, my mace will bring you the extra strength that you need dear
+    wielder. \u201D Some  times, after a successful  button press, Amber  would have
+    her damage increased for the next turn."
+  type: 1
+  damageModifier: 0
+  armorModifier: 0
+  wisdomModifier: 0

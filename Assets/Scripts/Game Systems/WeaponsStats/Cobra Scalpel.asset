@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Cobra Scalpel
+  m_EditorClassIdentifier: 
+  id: 36
+  equipmentName: Cobra Scalpel
+  value: 0
+  icon: {fileID: 21300000, guid: 1be5955e09868db4b80e278c029d7ed2, type: 3}
+  description: Small yet sharp enough to make a foe lose itself due the effects of
+    is  toxins within. Whoever designed this definetly wanted to make sure of critical
+    damage and eventual cruel demise by the toxins  within the Blade. After a successful 
+    button press, Darious  would have the chance to  poison  the enemy for some turns.
+  type: 2
+  damageModifier: 32
+  armorModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  poisonModifier: 60
+  sleepModifier: 0

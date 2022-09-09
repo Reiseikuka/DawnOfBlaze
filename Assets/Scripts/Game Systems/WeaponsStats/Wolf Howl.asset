@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Wolf Howl
+  m_EditorClassIdentifier: 
+  id: 25
+  equipmentName: Wolf Howl
+  value: 0
+  icon: {fileID: 21300000, guid: a1275554e34b5ce45a5323daf339e753, type: 3}
+  description: A long double barrelled short gun with a mechanism so precise and
+    so complex that it might take some years to replicate the mechanism, specially
+    since the  projectiles coming out of this prototype weapon comes out  explosive.
+    It takes two turns  after use to use again due the reloading.
+  type: 2
+  damageModifier: 58
+  armorModifier: 0
+  wisdomModifier: 0

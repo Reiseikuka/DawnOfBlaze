@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Iron Messenger
+  m_EditorClassIdentifier: 
+  id: 32
+  equipmentName: Iron Messenger
+  value: 0
+  icon: {fileID: 21300000, guid: a777d66dbe45c6b4bbcaddccfff21d90, type: 3}
+  description: 'People say that the design of this sword was build up on the times
+    where messengers  were vital if not the most respected  work between the kingdoms.
+    These swords were  and are helpful for a fast withdrawal. '
+  type: 1
+  damageModifier: 16
+  armorModifier: 0
+  wisdomModifier: 0
+  speedModifier: 12

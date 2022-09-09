@@ -130,66 +130,222 @@ public class LevelUpSystem : MonoBehaviour
       void Update()
       {
 
-          for (int i = 0; i <= 3; i++)
-          {
-              if(currentXP[i] <= 0)
+              if(currentXP[0] <= 0)
               {
-                currentXP[i] = 0;
+                currentXP[0] = 0;
+                CharacterStats[0].CharCurrentExp = currentXP[0];
               }
-                //Just as a precaution, if for some reason XP points are at or under 0, it should be 0.
-          }
-          /*What I'm trying to attempt is to check on every Character about their XP,
-            setting to 0 said current XP if for some reason the XP is below or equal 
-            to 0. */
+              //If Erick's current XP somehow is below 0, bring XP to be 0
+              if(currentXP[1] <= 0)
+              {
+                currentXP[1] = 0;
+                CharacterStats[1].CharCurrentExp = currentXP[1];
+              }
+              //If Darious current XP somehow is below 0, bring XP to be 0
+              if(currentXP[2] <= 0)
+              {
+                currentXP[2] = 0;
+                CharacterStats[2].CharCurrentExp = currentXP[2];
+              }
+              //If Amber's current XP somehow is below 0, bring XP to be 0
+              if(currentXP[3] <= 0)
+              {
+                currentXP[3] = 0;
+                CharacterStats[3].CharCurrentExp = currentXP[3];
+              }
+              //If Darcy's current XP somehow is below 0, bring XP to be 0         
+                  
+              //Just as a precaution, if for some reason XP points are at or under 0, it should be 0.
+          
+              /*What I'm trying to attempt is to check on every Character about their XP,
+                setting to 0 said current XP if for some reason the XP is below or equal 
+                to 0. */
 
-          for (int i = 0; i <= 3; i++)
-          {
-              if(lvl[i] <= 1)
-                {
-                  lvl[i] = 1;
-                }
-                  //Just as a precaution, if for some reason LVL is at or under 0, it should be on 1.
-          }
+
+
+              if(lvl[0] <= 1)
+              {
+                  lvl[0] = 1;
+                  CharacterStats[0].CharCurrentLvl = lvl[0];
+              }
+              //If Erick's current LVL somehow is below 0, bring LVL to be 1             
+              if(lvl[1] <= 1)
+              {
+                  lvl[1] = 1;
+                  CharacterStats[1].CharCurrentLvl = lvl[1];                  
+              }
+              //If Darious current LVL somehow is below 0, bring LVL to be 1
+              if(lvl[2] <= 1)
+              {
+                  lvl[2] = 1;
+                  CharacterStats[2].CharCurrentLvl = lvl[2];     
+              }
+              //If Amber's current LVL somehow is below 0, bring LVL to be 1
+              if(lvl[3] <= 1)
+              {
+                  lvl[3] = 1;
+                  CharacterStats[3].CharCurrentLvl = lvl[3];     
+              }
+              //If Darcy's current LVL somehow is below 0, bring LVL to be 1
+
+              //Just as a precaution, if for some reason LVL is at or under 0, it should be on 1.
+          
           /*What I'm trying to attempt is to check on every Character about their Level,
             setting to 1 said current Level  if for some reason the Level is below or equal 
             to 1. */
 
-          for (int i = 0; i <= 3; i++)
-          {
-              if(lvl[i] == maxLevel)
+
+              if(lvl[0] == maxLevel)
               {
-                currentXP[i] = 0;
+                currentXP[0] = 0;
+                CharacterStats[0].CharCurrentExp = currentXP[0];
               }
-              /*If Character has arrived to the max Level, get currentXP to 0 since there would no longer 
+              /*If Erick has arrived to the max Level, get currentXP to 0 since there would no longer 
                 be XP to be gained. */
-          }
+              if(lvl[1] == maxLevel)
+              {
+                currentXP[1] = 0;
+                CharacterStats[1].CharCurrentExp = currentXP[1];
+              }   
+              /*If Darious has arrived to the max Level, get currentXP to 0 since there would no longer 
+                be XP to be gained. */
+              if(lvl[2] == maxLevel)
+              {
+                currentXP[2] = 0;
+                CharacterStats[2].CharCurrentExp = currentXP[2];
+              }
+              /*If Amber has arrived to the max Level, get currentXP to 0 since there would no longer 
+                be XP to be gained. */
+              if(lvl[3] == maxLevel)
+              {
+                currentXP[3] = 0;
+                CharacterStats[3].CharCurrentExp = currentXP[3];
+              }   
+              /*If Darcy has arrived to the max Level, get currentXP to 0 since there would no longer 
+                be XP to be gained. */
+  
           /*What I'm trying to attempt is to check on every Character about their Level;
             if they have arrived Max Lvl, set their current XP to 0 since they would not
             level up further. */
 
-          for (int i = 0; i <= 3; i++)
-          {
-              if(currentXP[i] >= requiredXP[i] && lvl[i] != maxLevel)
+   
+              if(currentXP[0] >= requiredXP[0] && lvl[0] != maxLevel)
               {
-                LevelUp(i);
+
+                lvl[0] = lvl[0] + 1;
+                CharacterStats[0].CharCurrentLvl = lvl[0];
+                Debug.Log(CharacterStats[0].CharName + "" + CharacterStats[0].CharLastName + "" + "has leveled up!");
+                /* Once the Character reached out to the XP required to be on the next level, Level Up.*/
+
+                currentXP[0] = currentXP[0] - requiredXP[0];
+                CharacterStats[0].CharCurrentExp = currentXP[0];
+                Debug.Log("Current experience: " + CharacterStats[0].CharCurrentExp);
+                /* Once the Character reached out to the XP required to be on the next level, 
+                leave only the leftover XP (if the character gained 120 XP and needed only
+                100 to level up, it should keep only  20 on the next level).*/
+                UpdateCharStats(0);
+                /*This is for testing purposes. We call the function of UpdateChar Stats from the BaseStats script, we then
+                send the number of Erick(1)   so it can make the Stats Update process that is on BaseStats script. 
+                This will be replaced by functions related to Monsters and Side Missions eventually*/
+                requiredXP[0] = CalculateRequiredXP(lvl[0]);
+                Debug.Log("Erick's required XP for next LVL: " + requiredXP[0]);
+                /*XP required to level up on the new Level should have the new XP value
+                according to the formula.*/
+
+                //Since Erick is leveling up, sent his number array so the proper calculations are made.
+              }
+
+              if(currentXP[1] >= requiredXP[1] && lvl[1] != maxLevel)
+              {
+
+                lvl[1] = lvl[1] + 1;
+                CharacterStats[1].CharCurrentLvl = lvl[1];
+                Debug.Log(CharacterStats[1].CharName + "" + CharacterStats[1].CharLastName + "" + "has leveled up!");
+                /* Once the Character reached out to the XP required to be on the next level, Level Up.*/
+
+                currentXP[1] = currentXP[1] - requiredXP[1];
+                CharacterStats[1].CharCurrentExp = currentXP[1];
+                Debug.Log("Current experience: " + CharacterStats[1].CharCurrentExp);
+                /* Once the Character reached out to the XP required to be on the next level, 
+                leave only the leftover XP (if the character gained 120 XP and needed only
+                100 to level up, it should keep only  20 on the next level).*/
+                UpdateCharStats(1);
+                /*This is for testing purposes. We call the function of UpdateChar Stats from the BaseStats script, we then
+                send the number of Erick(1)   so it can make the Stats Update process that is on BaseStats script. 
+                This will be replaced by functions related to Monsters and Side Missions eventually*/
+                requiredXP[1] = CalculateRequiredXP(lvl[1]);
+                Debug.Log("Darious required XP for next LVL: " + requiredXP[1]);
+                /*XP required to level up on the new Level should have the new XP value
+                according to the formula.*/
+
+                //Since Darious is leveling up, sent his number array so the proper calculations are made.
+              }
+
+              if(currentXP[2] >= requiredXP[2] && lvl[2] != maxLevel)
+              {
+
+                lvl[2] = lvl[2] + 1;
+                CharacterStats[2].CharCurrentLvl = lvl[2];
+                Debug.Log(CharacterStats[2].CharName + "" + CharacterStats[2].CharLastName + "" + "has leveled up!");
+                /* Once the Character reached out to the XP required to be on the next level, Level Up.*/
+
+                currentXP[2] = currentXP[2] - requiredXP[2];
+                CharacterStats[2].CharCurrentExp = currentXP[2];
+                Debug.Log("Current experience: " + CharacterStats[2].CharCurrentExp);
+                /* Once the Character reached out to the XP required to be on the next level, 
+                leave only the leftover XP (if the character gained 120 XP and needed only
+                100 to level up, it should keep only  20 on the next level).*/
+                UpdateCharStats(2);
+                /*This is for testing purposes. We call the function of UpdateChar Stats from the BaseStats script, we then
+                send the number of Erick(1)   so it can make the Stats Update process that is on BaseStats script. 
+                This will be replaced by functions related to Monsters and Side Missions eventually*/
+                requiredXP[2] = CalculateRequiredXP(lvl[2]);
+                Debug.Log("Darious required XP for next LVL: " + requiredXP[2]);                
+                /*XP required to level up on the new Level should have the new XP value
+                according to the formula.*/
+
+                //Since Amber is leveling up, sent his number array so the proper calculations are made.
+              }
+              if(currentXP[3] >= requiredXP[3] && lvl[3] != maxLevel)
+              {
+
+                lvl[3] = lvl[3] + 1;
+                CharacterStats[3].CharCurrentLvl = lvl[3];
+                Debug.Log(CharacterStats[3].CharName + "" + CharacterStats[3].CharLastName + "" + "has leveled up!");
+                /* Once the Character reached out to the XP required to be on the next level, Level Up.*/
+
+                currentXP[3] = currentXP[3] - requiredXP[3];
+                CharacterStats[3].CharCurrentExp = currentXP[3];
+                Debug.Log("Current experience: " + CharacterStats[3].CharCurrentExp);
+                /* Once the Character reached out to the XP required to be on the next level, 
+                leave only the leftover XP (if the character gained 120 XP and needed only
+                100 to level up, it should keep only  20 on the next level).*/
+                UpdateCharStats(3);
+                /*This is for testing purposes. We call the function of UpdateChar Stats from the BaseStats script, we then
+                send the number of Erick(1)   so it can make the Stats Update process that is on BaseStats script. 
+                This will be replaced by functions related to Monsters and Side Missions eventually*/
+                requiredXP[3] = CalculateRequiredXP(lvl[3]);
+                Debug.Log("Darious required XP for next LVL: " + requiredXP[3]); 
+                /*XP required to level up on the new Level should have the new XP value
+                according to the formula.*/
+
+                //Since Darcy is leveling up, sent his number array so the proper calculations are made.
               }
                 /*If the currentXP of the character is equal or greater to the one required to level up, then level up 
                   and change the amount needed for the upcoming level accordingly. Also, do not level up the Character 
                   if said character has reached up to level 50(maxLevel). */
-          }
+          
 
           if(Input.GetKeyDown(KeyCode.T))
           {
-              currentXP[0] = currentXP[0] + 40;
-              currentXP[1] = currentXP[1] + 40;
-              currentXP[2] = currentXP[2] + 40;
-              currentXP[3] = currentXP[3] + 40;
+              currentXP[1] = currentXP[1] + 607000;
+              CharacterStats[1].CharCurrentExp = currentXP[1];
+              //Adding XP to Erick (Testing)
+
               Debug.Log("XP points added!");
-              Debug.Log(currentXP[0]);
-              Debug.Log(currentXP[1]);
-              Debug.Log(currentXP[2]);
-              Debug.Log(currentXP[3]);
-              print("Corroborate that the XP points have been added!");
+              Debug.Log("Current XP of Darious: " + currentXP[1]);
+              Debug.Log("Darious's required XP for next LVL: " + (requiredXP[1] - currentXP[1]));
+
               //For Testing Purposes, lets give 40 Exp Points to all each time you press down T.
           }
           /*
@@ -200,39 +356,20 @@ public class LevelUpSystem : MonoBehaviour
       }
 
 
-      public void LevelUp(int pmember)
-      {
-           lvl[pmember]++;
-           /* Once the Character reached out to the XP required to be on the next level, 
-              Level Up.*/
-
-           currentXP[pmember] = currentXP[pmember] - requiredXP[pmember];
-           /* Once the Character reached out to the XP required to be on the next level, 
-              leave only the leftover XP (if the character gained 120 XP and needed only
-              100 to level up, it should keep only  20 on the next level).*/
-
-            UpdateCharStats(pmember);
-            /*This is for testing purposes. We call the function of UpdateChar Stats from the BaseStats script, we then
-              send the number of Erick(1)   so it can make the Stats Update process that is on BaseStats script. 
-              This will be replaced by functions related to Monsters and Side Missions eventually*/
-
-            requiredXP[pmember] = CalculateRequiredXP(pmember);
-           /*XP required to level up on the new Level should have the new XP value
-             according to the formula.*/
-      }
-
     /*--------------------- CALCULATING THE EXPERIENCE --------------------*/
     //After leveling up, the new required XP to level up once again would be set thanks to this calculation.
 
       private int CalculateRequiredXP(int level)
       {
-
+        
+        level = level + 1;
+        //Experience needed to get to the upcoming level
         int solveForRequiredXP = 0;
         //will do the operation of the formula to see the RequiredXP needed to lvl up
 
         for (int i = 1; i <= level; i++)
         {
-           solveForRequiredXP += (int)((5 * (Mathf.Pow(i,3))) - (3 * (Mathf.Pow(i,2))));
+           solveForRequiredXP += (int)((5 * (Mathf.Pow(i, 3))) - (3 * (Mathf.Pow(i, 2))));
            // f(x)= 5(x^3)-3(x^2)
         }
 
@@ -265,11 +402,12 @@ public class LevelUpSystem : MonoBehaviour
         /* Each time the LevelUp function is called, will always randomized first the values that would be
            randomized each time characters level up before their addition to the real stats holder for each character.
           Then in the following, we proceed to set the new values to the stats of the Character*/
-
+        
          int UPDstat = character;
         switch (UPDstat)
         {
-          case 1:
+          case 0:
+            Debug.Log("Upgrading Stats of Erick!");
             CharacterStats[0].CharCurrentLvl = CharacterStats[0].CharCurrentLvl++;
           //Level of the Character increased by one. This is equal to = level +1*/
 
@@ -312,7 +450,8 @@ public class LevelUpSystem : MonoBehaviour
             CharacterStats[0].SleepingRes = CharacterStats[0].SleepingRes + pjSlpRes;
           //SleepingRes of the Character increased. We update the current SleepingRes with the randomized value to give the upgrade.*/
           break;
-          case 2:
+          case 1:
+            Debug.Log("Upgrading Stats of Darious!");
             CharacterStats[1].CharCurrentLvl = CharacterStats[1].CharCurrentLvl++;
           //Level of the Character increased by one. This is equal to = level +1*/
 
@@ -355,7 +494,8 @@ public class LevelUpSystem : MonoBehaviour
             CharacterStats[1].SleepingRes = CharacterStats[1].SleepingRes + pjSlpRes + CharSleepingResAffinity;
           //SleepingRes of the Character increased. Considering which character it is, we add him a bonus.*/      
           break;
-          case 3:
+          case 2:
+            Debug.Log("Upgrading Stats of Amber!");
             CharacterStats[2].CharCurrentLvl = CharacterStats[2].CharCurrentLvl++;
           //Level of the Character increased by one. This is equal to = level +1*/
 
@@ -398,7 +538,8 @@ public class LevelUpSystem : MonoBehaviour
             CharacterStats[2].SleepingRes = CharacterStats[2].SleepingRes + pjSlpRes;
           //SleepingRes of the Character increased. We update the current SleepingRes with the randomized value to give the upgrade.*/    
           break;
-          case 4:
+          case 3:
+            Debug.Log("Upgrading Stats of Darcy!");
             CharacterStats[3].CharCurrentLvl = CharacterStats[3].CharCurrentLvl++;
           //Level of the Character increased by one. This is equal to = level +1*/
 

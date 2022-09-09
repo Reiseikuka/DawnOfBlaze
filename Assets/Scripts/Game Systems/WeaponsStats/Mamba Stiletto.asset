@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Mamba Stiletto
+  m_EditorClassIdentifier: 
+  id: 34
+  equipmentName: Mamba Stiletto
+  value: 0
+  icon: {fileID: 21300000, guid: c48a61e51ec61ec4b89975ee137be207, type: 3}
+  description: 'The snake has two aspects: The one which involves precision, calmness
+    and the  fast ability to act. The other  involves the vile, toxic and non educated
+    maneurism. These dual sharp daggers, carry poison on their blades. After a successful 
+    button press, the enemy could end up poisoned for some turns.'
+  type: 2
+  damageModifier: 18
+  armorModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  poisonModifier: 30

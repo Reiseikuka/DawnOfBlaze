@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Hollow Blade
+  m_EditorClassIdentifier: 
+  id: 35
+  equipmentName: Hollow Blade
+  value: 0
+  icon: {fileID: 21300000, guid: 9539f5b053e8da7499dd554753b03701, type: 3}
+  description: "\xBFHow is your heart dear wielder? Oh don\u2019t worry, is not your
+    imagination, im sorta alive but only you would be able to hear me. Worry not,
+    I do not search through your mind but I gotta give you something clear: Make
+    sure your souls is filled of the warm sensation that love, goals and determination
+    gives or else\u2026your body would be mine. After a successful  button press,
+    Erick  would have a chance to have his defence increased for  some  turns."
+  type: 1
+  damageModifier: 57
+  armorModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  poisonModifier: 0

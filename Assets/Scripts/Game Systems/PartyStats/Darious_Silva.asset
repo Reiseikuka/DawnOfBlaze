@@ -23,6 +23,7 @@ MonoBehaviour:
   CharIP: 60
   CharMaxIP: 60
   CharCurrentLvl: 1
+  CharCurrentExp: 0
   CharStrength: 19
   CharDefence: 16
   CharSpeed: 27
