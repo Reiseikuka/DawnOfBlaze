@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 68bfaceecf48f3447be38ba2dea2b2ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1348722055609359358
+    second: Inn Open Roof
+  - first:
+      213: 4442783466444813538
+    second: Inn Open Base
+  - first:
+      213: 8179059239380039757
+    second: Inn Open Door
+  - first:
+      213: 967161968670014996
+    second: Inn (open)_3
+  - first:
+      213: -8915132711606164318
+    second: Inn (open)_4
+  - first:
+      213: -7894368340257458742
+    second: Inn (open)_5
+  - first:
+      213: -8876686616649271595
+    second: Inn (open)_6
+  - first:
+      213: 9151428762645916615
+    second: Inn (open)_7
+  - first:
+      213: -1355983335546202830
+    second: Inn (open)_8
+  - first:
+      213: -3444239472284677447
+    second: Inn (open)_9
+  - first:
+      213: 9047279435942428468
+    second: Inn (open)_10
+  - first:
+      213: 8925992389303373301
+    second: Inn (open)_11
+  - first:
+      213: -2603405080356893911
+    second: Inn (open)_12
+  - first:
+      213: -1872175704047483405
+    second: Inn (open)_13
+  - first:
+      213: -6902217870860773986
+    second: Inn (open)_14
+  - first:
+      213: -7258243368131416074
+    second: Inn (open)_15
+  - first:
+      213: -6414316050075077411
+    second: Inn (open)_16
+  - first:
+      213: 7724399225339012115
+    second: Inn (open)_17
+  - first:
+      213: 2036585446596587452
+    second: Inn (open)_18
+  - first:
+      213: -4810106883828993520
+    second: Inn (open)_19
+  - first:
+      213: -1211333295657598282
+    second: Inn (open)_20
+  - first:
+      213: -4688388168091281191
+    second: Inn (open)_21
+  - first:
+      213: 1920784746275176117
+    second: Inn (open)_22
+  - first:
+      213: -2057328056274080696
+    second: Inn (open)_23
+  - first:
+      213: -5937571380809467426
+    second: Inn (open)_24
+  - first:
+      213: -5928477784453998788
+    second: Inn (open)_25
+  - first:
+      213: -4783840776717607216
+    second: Inn (open)_26
+  - first:
+      213: 8995390473630335338
+    second: Inn (open)_27
+  - first:
+      213: -156499091644906260
+    second: Inn (open)_28
+  - first:
+      213: -7267469468486209708
+    second: Inn (open)_29
+  - first:
+      213: 724657243570870577
+    second: Inn (open)_30
+  - first:
+      213: -4999966019929154070
+    second: Inn (open)_31
+  - first:
+      213: 2548842950678480822
+    second: Inn (open)_32
+  - first:
+      213: -1987708996998611126
+    second: Inn (open)_33
+  - first:
+      213: -1612666384341348507
+    second: Inn (open)_34
+  - first:
+      213: -7890928290987606784
+    second: Inn (open)_35
+  - first:
+      213: -6989730461162337313
+    second: Inn (open)_36
+  - first:
+      213: 8869874042996873880
+    second: Inn (open)_37
+  - first:
+      213: 6902337284428367910
+    second: Inn (open)_38
+  - first:
+      213: 2881878857985075940
+    second: Inn (open)_39
+  - first:
+      213: 8913399550738712064
+    second: Inn (open)_40
+  - first:
+      213: -1818991971159105866
+    second: Inn (open)_41
+  - first:
+      213: 2441918304070191211
+    second: Inn (open)_42
+  - first:
+      213: -2605909318967036094
+    second: Inn (open)_43
+  - first:
+      213: 7293706222807570087
+    second: Inn (open)_44
+  - first:
+      213: 4418293914389273912
+    second: Inn (open)_45
+  - first:
+      213: -7799629109514795371
+    second: Inn (open)_46
+  - first:
+      213: 2971800886392552933
+    second: Inn (open)_47
+  - first:
+      213: 5505776875854028054
+    second: Inn (open)_48
+  - first:
+      213: 4397413298943580786
+    second: Inn (open)_49
+  - first:
+      213: -4747829114563101946
+    second: Inn (open)_50
+  - first:
+      213: 8508180978208992562
+    second: Inn (open)_51
+  - first:
+      213: -21024966181899601
+    second: Inn (open)_52
+  - first:
+      213: -7346460514551875893
+    second: Inn (open)_53
+  - first:
+      213: 6947608092784874988
+    second: Inn (open)_54
+  - first:
+      213: 6864393675327291394
+    second: Inn (open)_55
+  - first:
+      213: 591534671762986622
+    second: Inn (open)_56
+  - first:
+      213: 7696177349384098925
+    second: Inn (open)_57
+  - first:
+      213: -9192439789669412897
+    second: Inn (open)_58
+  - first:
+      213: -8862440309458877335
+    second: Inn (open)_59
+  - first:
+      213: 8553224617471151721
+    second: Inn (open)_60
+  - first:
+      213: 8725566128517340927
+    second: Inn (open)_61
+  - first:
+      213: 8829993724144077725
+    second: Inn (open)_62
+  - first:
+      213: -4624232111046850168
+    second: Inn (open)_63
+  - first:
+      213: -7818415773455802243
+    second: Inn (open)_64
+  - first:
+      213: -957578594895314775
+    second: Inn (open)_65
+  - first:
+      213: -8589840814851290703
+    second: Inn (open)_66
+  - first:
+      213: 7751883260741731653
+    second: Inn (open)_67
+  - first:
+      213: -6877611214983052333
+    second: Inn (open)_68
+  - first:
+      213: -3991000489739695369
+    second: Inn (open)_69
+  - first:
+      213: 2999122488470186155
+    second: Inn (open)_70
+  - first:
+      213: 182468536333590929
+    second: Inn (open)_71
+  - first:
+      213: 3636733767742462631
+    second: Inn (open)_72
+  - first:
+      213: 8178710070937205865
+    second: Inn (open)_73
+  - first:
+      213: 940618402215229417
+    second: Inn (open)_74
+  - first:
+      213: 1734304909797382535
+    second: Inn (open)_75
+  - first:
+      213: -7617023098681215833
+    second: Inn (open)_76
+  - first:
+      213: -3743658224275279647
+    second: Inn (open)_77
+  - first:
+      213: 7789364437603412412
+    second: Inn (open)_78
+  - first:
+      213: 3009811721598711275
+    second: Inn (open)_79
+  - first:
+      213: 3159226209987787904
+    second: Inn (open)_80
+  - first:
+      213: -693040403579594499
+    second: Inn (open)_81
+  - first:
+      213: 3227311935750908614
+    second: Inn (open)_82
+  - first:
+      213: 2790243738891164569
+    second: Inn (open)_83
+  - first:
+      213: -8623573309574707251
+    second: Inn (open)_84
+  - first:
+      213: 4749117698049437125
+    second: Inn (open)_85
+  - first:
+      213: -556806693248867031
+    second: Inn (open)_86
+  - first:
+      213: 1473078987893484883
+    second: Inn (open)_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inn Open Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2046baeaf60684de0800000000000000
+      internalID: -1348722055609359358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Open Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 160
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4fb6b1600f7ad30800000000000000
+      internalID: 4442783466444813538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Open Door
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 15
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48bf103b0bd18170800000000000000
+      internalID: 8179059239380039757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

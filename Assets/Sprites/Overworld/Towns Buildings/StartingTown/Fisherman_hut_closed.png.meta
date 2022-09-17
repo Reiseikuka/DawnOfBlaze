@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: 7385580314547874c96d07ed31c39c33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8546824416966294901
+    second: Fisherman Hut  Roof
+  - first:
+      213: 3707829306579804292
+    second: Fisherman Hut  Base
+  - first:
+      213: 5340467378403150768
+    second: Fisherman Hut  Door
+  - first:
+      213: 6618995244415234568
+    second: Fisherman_hut_closed_3
+  - first:
+      213: 2681640278517349009
+    second: Fisherman_hut_closed_4
+  - first:
+      213: 2583449251777122785
+    second: Fisherman_hut_closed_5
+  - first:
+      213: -5418326575116861049
+    second: Fisherman_hut_closed_6
+  - first:
+      213: -6396614235538285940
+    second: Fisherman_hut_closed_7
+  - first:
+      213: -8018634919473647124
+    second: Fisherman_hut_closed_8
+  - first:
+      213: 4104495983878112088
+    second: Fisherman_hut_closed_9
+  - first:
+      213: 7131280735750690310
+    second: Fisherman_hut_closed_10
+  - first:
+      213: 8653258972900235977
+    second: Fisherman_hut_closed_11
+  - first:
+      213: 9057969675525099721
+    second: Fisherman_hut_closed_12
+  - first:
+      213: 4376780022249536323
+    second: Fisherman_hut_closed_13
+  - first:
+      213: 329272524258056226
+    second: Fisherman_hut_closed_14
+  - first:
+      213: -5820871439367326837
+    second: Fisherman_hut_closed_15
+  - first:
+      213: 5220606790094039199
+    second: Fisherman_hut_closed_16
+  - first:
+      213: -5490645279804213861
+    second: Fisherman_hut_closed_17
+  - first:
+      213: 3586656829260144749
+    second: Fisherman_hut_closed_18
+  - first:
+      213: 6132818178128493444
+    second: Fisherman_hut_closed_19
+  - first:
+      213: 1172848206652405038
+    second: Fisherman_hut_closed_20
+  - first:
+      213: 7164532992148625436
+    second: Fisherman_hut_closed_21
+  - first:
+      213: 2061930346512740178
+    second: Fisherman_hut_closed_22
+  - first:
+      213: -3572384719579166420
+    second: Fisherman_hut_closed_23
+  - first:
+      213: -3158057596057924862
+    second: Fisherman_hut_closed_24
+  - first:
+      213: 6643599839631166201
+    second: Fisherman_hut_closed_25
+  - first:
+      213: 3366700063178823363
+    second: Fisherman_hut_closed_26
+  - first:
+      213: 867098778149941892
+    second: Fisherman_hut_closed_27
+  - first:
+      213: 7272375999925936514
+    second: Fisherman_hut_closed_28
+  - first:
+      213: -8704679612885429841
+    second: Fisherman_hut_closed_29
+  - first:
+      213: 2822243097688469448
+    second: Fisherman_hut_closed_30
+  - first:
+      213: 8856410592195063463
+    second: Fisherman_hut_closed_31
+  - first:
+      213: -5891492972281046709
+    second: Fisherman_hut_closed_32
+  - first:
+      213: 2059541496647176329
+    second: Fisherman_hut_closed_33
+  - first:
+      213: -8805304201230960961
+    second: Fisherman_hut_closed_34
+  - first:
+      213: 5218588270543852823
+    second: Fisherman_hut_closed_35
+  - first:
+      213: 2360894416424506480
+    second: Fisherman_hut_closed_36
+  - first:
+      213: -2186784264869608355
+    second: Fisherman_hut_closed_37
+  - first:
+      213: -295996582854930956
+    second: Fisherman_hut_closed_38
+  - first:
+      213: -8100667790181119026
+    second: Fisherman_hut_closed_39
+  - first:
+      213: 607295988029314832
+    second: Fisherman_hut_closed_40
+  - first:
+      213: 8848149700321051694
+    second: Fisherman_hut_closed_41
+  - first:
+      213: 68563002825447750
+    second: Fisherman_hut_closed_42
+  - first:
+      213: 2281172970027690426
+    second: Fisherman_hut_closed_43
+  - first:
+      213: -7194868171466722698
+    second: Fisherman_hut_closed_44
+  - first:
+      213: 8651299368009925442
+    second: Fisherman_hut_closed_45
+  - first:
+      213: -7934955723089146057
+    second: Fisherman_hut_closed_46
+  - first:
+      213: -7590586392934149769
+    second: Fisherman_hut_closed_47
+  - first:
+      213: 4733313141461336498
+    second: Fisherman_hut_closed_48
+  - first:
+      213: 8889590386246319826
+    second: Fisherman_hut_closed_49
+  - first:
+      213: -5795128435723228913
+    second: Fisherman_hut_closed_50
+  - first:
+      213: 8715008441494834491
+    second: Fisherman_hut_closed_51
+  - first:
+      213: 1624301187597617012
+    second: Fisherman_hut_closed_52
+  - first:
+      213: 2883159531401934475
+    second: Fisherman_hut_closed_53
+  - first:
+      213: 5849810945584661049
+    second: Fisherman_hut_closed_54
+  - first:
+      213: -7922070414759342870
+    second: Fisherman_hut_closed_55
+  - first:
+      213: 8956435472659647685
+    second: Fisherman_hut_closed_56
+  - first:
+      213: -6836214468129584055
+    second: Fisherman_hut_closed_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fisherman Hut  Roof
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 90
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -8}
+        - {x: -4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 5, y: -5}
+        - {x: 4, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82c61dc974936980800000000000000
+      internalID: -8546824416966294901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman Hut  Base
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 3}
+        - {x: 4, y: 2}
+        - {x: 2, y: 1}
+        - {x: 0, y: 0}
+        - {x: -4, y: -2}
+        - {x: -8, y: -4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+        - {x: 6, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480e8720c1bd47330800000000000000
+      internalID: 3707829306579804292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman Hut  Door
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 67
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -6, y: 5}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 5}
+        - {x: 5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb084029c62d1a40800000000000000
+      internalID: 5340467378403150768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

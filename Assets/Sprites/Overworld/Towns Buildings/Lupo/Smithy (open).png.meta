@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: ba6dd87e9135de64092dbe2e170d5921
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -661126378223937016
+    second: Smithy Opened Roof
+  - first:
+      213: -7329352513133588608
+    second: Smithy Opened Base
+  - first:
+      213: 4800964133290314116
+    second: Smithy Opened Door
+  - first:
+      213: 2213304669036331559
+    second: Smithy (open)_3
+  - first:
+      213: -2918449378400485334
+    second: Smithy (open)_4
+  - first:
+      213: 4301192666869816667
+    second: Smithy (open)_5
+  - first:
+      213: 4181039886609805981
+    second: Smithy (open)_6
+  - first:
+      213: -5253042650410866892
+    second: Smithy (open)_7
+  - first:
+      213: 3331602407641718257
+    second: Smithy (open)_8
+  - first:
+      213: 7209217112979921403
+    second: Smithy (open)_9
+  - first:
+      213: -3130045967312681260
+    second: Smithy (open)_10
+  - first:
+      213: -7867623750600756829
+    second: Smithy (open)_11
+  - first:
+      213: -926938548125378515
+    second: Smithy (open)_12
+  - first:
+      213: -5340684619934024737
+    second: Smithy (open)_13
+  - first:
+      213: 7198676414400041680
+    second: Smithy (open)_14
+  - first:
+      213: -3687862697099085871
+    second: Smithy (open)_15
+  - first:
+      213: 3199297511363821303
+    second: Smithy (open)_16
+  - first:
+      213: -6091550432928378718
+    second: Smithy (open)_17
+  - first:
+      213: 2308171616696665242
+    second: Smithy (open)_18
+  - first:
+      213: 4025929503085881389
+    second: Smithy (open)_19
+  - first:
+      213: 796812040854309043
+    second: Smithy (open)_20
+  - first:
+      213: 622930512530246220
+    second: Smithy (open)_21
+  - first:
+      213: 1329437646164823111
+    second: Smithy (open)_22
+  - first:
+      213: -809397950983032680
+    second: Smithy (open)_23
+  - first:
+      213: 6766676725295051376
+    second: Smithy (open)_24
+  - first:
+      213: 5974333369337600670
+    second: Smithy (open)_25
+  - first:
+      213: -6180074894469005450
+    second: Smithy (open)_26
+  - first:
+      213: -5176530645078892704
+    second: Smithy (open)_27
+  - first:
+      213: -4848475734667081657
+    second: Smithy (open)_28
+  - first:
+      213: 7249117317899188514
+    second: Smithy (open)_29
+  - first:
+      213: -102678292508470577
+    second: Smithy (open)_30
+  - first:
+      213: -618452594319005486
+    second: Smithy (open)_31
+  - first:
+      213: -7272555229465430914
+    second: Smithy (open)_32
+  - first:
+      213: 3785342731297574702
+    second: Smithy (open)_33
+  - first:
+      213: -7708137208775538878
+    second: Smithy (open)_34
+  - first:
+      213: -479442760934121992
+    second: Smithy (open)_35
+  - first:
+      213: 739437725107853613
+    second: Smithy (open)_36
+  - first:
+      213: 6710584662845410460
+    second: Smithy (open)_37
+  - first:
+      213: 4880166726697525830
+    second: Smithy (open)_38
+  - first:
+      213: -6374811209304191030
+    second: Smithy (open)_39
+  - first:
+      213: 2244814136255097598
+    second: Smithy (open)_40
+  - first:
+      213: 753563387089096856
+    second: Smithy (open)_41
+  - first:
+      213: -8381219516774702348
+    second: Smithy (open)_42
+  - first:
+      213: 6242750546796877186
+    second: Smithy (open)_43
+  - first:
+      213: -2420404677133739881
+    second: Smithy (open)_44
+  - first:
+      213: -2271948411861744480
+    second: Smithy (open)_45
+  - first:
+      213: 5789812567976065767
+    second: Smithy (open)_46
+  - first:
+      213: 2952743472548753516
+    second: Smithy (open)_47
+  - first:
+      213: -6630517210241028655
+    second: Smithy (open)_48
+  - first:
+      213: -3813017755052476288
+    second: Smithy (open)_49
+  - first:
+      213: -8784668768029866454
+    second: Smithy (open)_50
+  - first:
+      213: 8996226075578490390
+    second: Smithy (open)_51
+  - first:
+      213: 2505538070082410292
+    second: Smithy (open)_52
+  - first:
+      213: 3497312074677245909
+    second: Smithy (open)_53
+  - first:
+      213: -5772071643830468755
+    second: Smithy (open)_54
+  - first:
+      213: -3018616768677695792
+    second: Smithy (open)_55
+  - first:
+      213: -5593472181449863660
+    second: Smithy (open)_56
+  - first:
+      213: -4715153901217316685
+    second: Smithy (open)_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smithy Opened Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a5252df0533d6f0800000000000000
+      internalID: -661126378223937016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smithy Opened Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 128
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f4e0dc8b8e84a90800000000000000
+      internalID: -7329352513133588608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smithy Opened Door
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 23
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4890920517370a240800000000000000
+      internalID: 4800964133290314116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: f3de066b9aacb6243a46a2f847dbcc14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2349207254008279202
+    second: Tavern Closed Roof
+  - first:
+      213: -1556722594848585841
+    second: Tavern Closed Base
+  - first:
+      213: -5261408469198286855
+    second: Tavern (closed)_2
+  - first:
+      213: -2852658409194891163
+    second: Tavern (closed)_3
+  - first:
+      213: 1503733741839517250
+    second: Tavern (closed)_4
+  - first:
+      213: -1265952054415223199
+    second: Tavern (closed)_5
+  - first:
+      213: 951418992888845706
+    second: Tavern (closed)_6
+  - first:
+      213: -1522120351968707189
+    second: Tavern (closed)_7
+  - first:
+      213: -256389244377809318
+    second: Tavern (closed)_8
+  - first:
+      213: 5234420977256779734
+    second: Tavern (closed)_9
+  - first:
+      213: -3660248696125290750
+    second: Tavern (closed)_10
+  - first:
+      213: -3864103445260973690
+    second: Tavern (closed)_11
+  - first:
+      213: 3417044710102736546
+    second: Tavern (closed)_12
+  - first:
+      213: 2150043027351264428
+    second: Tavern (closed)_13
+  - first:
+      213: -3546028129366732957
+    second: Tavern (closed)_14
+  - first:
+      213: -6671864563492051460
+    second: Tavern (closed)_15
+  - first:
+      213: -8140172002168607659
+    second: Tavern (closed)_16
+  - first:
+      213: -3508452161916364948
+    second: Tavern (closed)_17
+  - first:
+      213: -7790433185893713150
+    second: Tavern (closed)_18
+  - first:
+      213: 1545293898439859948
+    second: Tavern (closed)_19
+  - first:
+      213: -6083594275666814467
+    second: Tavern (closed)_20
+  - first:
+      213: 8369575681655511922
+    second: Tavern (closed)_21
+  - first:
+      213: -6726176690257106548
+    second: Tavern (closed)_22
+  - first:
+      213: -6641155825550909866
+    second: Tavern (closed)_23
+  - first:
+      213: -3849713377726229465
+    second: Tavern (closed)_24
+  - first:
+      213: 4007335129219219308
+    second: Tavern (closed)_25
+  - first:
+      213: -1432450367767564554
+    second: Tavern (closed)_26
+  - first:
+      213: -9022205803790168154
+    second: Tavern (closed)_27
+  - first:
+      213: -452558517393580973
+    second: Tavern (closed)_28
+  - first:
+      213: -7239283966969600902
+    second: Tavern (closed)_29
+  - first:
+      213: -7517465223760495275
+    second: Tavern (closed)_30
+  - first:
+      213: -4964105887046115364
+    second: Tavern (closed)_31
+  - first:
+      213: -3471630607835003851
+    second: Tavern (closed)_32
+  - first:
+      213: -7070528543463918859
+    second: Tavern (closed)_33
+  - first:
+      213: 988634757189071030
+    second: Tavern (closed)_34
+  - first:
+      213: -4940714098139669374
+    second: Tavern (closed)_35
+  - first:
+      213: 8373719344792940654
+    second: Tavern (closed)_36
+  - first:
+      213: -3396627768389229114
+    second: Tavern (closed)_37
+  - first:
+      213: -8256461900606828787
+    second: Tavern (closed)_38
+  - first:
+      213: -843475857934171255
+    second: Tavern (closed)_39
+  - first:
+      213: 8605876913283736799
+    second: Tavern (closed)_40
+  - first:
+      213: 1522093274764375501
+    second: Tavern (closed)_41
+  - first:
+      213: -1314911677329107809
+    second: Tavern (closed)_42
+  - first:
+      213: -2397721619472046012
+    second: Tavern (closed)_43
+  - first:
+      213: 9011634062196092759
+    second: Tavern (closed)_44
+  - first:
+      213: 2986202960331992057
+    second: Tavern (closed)_45
+  - first:
+      213: 4981500271895883849
+    second: Tavern (closed)_46
+  - first:
+      213: 6989424254979342791
+    second: Tavern (closed)_47
+  - first:
+      213: 3528668019314934914
+    second: Tavern (closed)_48
+  - first:
+      213: 4778419133430370704
+    second: Tavern (closed)_49
+  - first:
+      213: -5679980845174424992
+    second: Tavern (closed)_50
+  - first:
+      213: -9028731851440848618
+    second: Tavern (closed)_51
+  - first:
+      213: -9134917972457087528
+    second: Tavern (closed)_52
+  - first:
+      213: -3277007000298462035
+    second: Tavern (closed)_53
+  - first:
+      213: -1066474177260001299
+    second: Tavern (closed)_54
+  - first:
+      213: -8632950674404515727
+    second: Tavern (closed)_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tavern Closed Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 139
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fc019f270f56fd0800000000000000
+      internalID: -2349207254008279202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 139
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87c9304c09656ae0800000000000000
+      internalID: -1556722594848585841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern (closed)_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff44379fd8bbf6b0800000000000000
+      internalID: -5261408469198286855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

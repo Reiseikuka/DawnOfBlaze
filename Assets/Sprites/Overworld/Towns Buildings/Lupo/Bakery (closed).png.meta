@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: de0946eb02c492d4ba8c6175fcf4b61e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8199633738048089264
+    second: Bakery Closed Roof
+  - first:
+      213: -9043889564346548531
+    second: Bakery Closed Base
+  - first:
+      213: 7323110847094504889
+    second: Bakery Closed Door
+  - first:
+      213: -9120215521401010173
+    second: Bakery (closed)_3
+  - first:
+      213: -8052974058289148445
+    second: Bakery (closed)_4
+  - first:
+      213: -7745403428269891870
+    second: Bakery (closed)_5
+  - first:
+      213: -3300283462985925291
+    second: Bakery (closed)_6
+  - first:
+      213: -5008752914707151527
+    second: Bakery (closed)_7
+  - first:
+      213: 3129922774142574486
+    second: Bakery (closed)_8
+  - first:
+      213: 4257963087973303857
+    second: Bakery (closed)_9
+  - first:
+      213: -2424225217094603482
+    second: Bakery (closed)_10
+  - first:
+      213: 5059507208425121535
+    second: Bakery (closed)_11
+  - first:
+      213: -8638041347556744234
+    second: Bakery (closed)_12
+  - first:
+      213: 1691963611834755372
+    second: Bakery (closed)_13
+  - first:
+      213: 7767656625255873058
+    second: Bakery (closed)_14
+  - first:
+      213: -6303272798601202614
+    second: Bakery (closed)_15
+  - first:
+      213: 303399817399469919
+    second: Bakery (closed)_16
+  - first:
+      213: -3611126127012559614
+    second: Bakery (closed)_17
+  - first:
+      213: 4990696839900897031
+    second: Bakery (closed)_18
+  - first:
+      213: 8516537367072727114
+    second: Bakery (closed)_19
+  - first:
+      213: 4304148184159543596
+    second: Bakery (closed)_20
+  - first:
+      213: 8825229098812673974
+    second: Bakery (closed)_21
+  - first:
+      213: -4850984413937373908
+    second: Bakery (closed)_22
+  - first:
+      213: -216970152849989592
+    second: Bakery (closed)_23
+  - first:
+      213: 7250118634241640165
+    second: Bakery (closed)_24
+  - first:
+      213: 4866353488856706471
+    second: Bakery (closed)_25
+  - first:
+      213: -7765165795867295106
+    second: Bakery (closed)_26
+  - first:
+      213: -8442144026063907592
+    second: Bakery (closed)_27
+  - first:
+      213: 5918668303517783614
+    second: Bakery (closed)_28
+  - first:
+      213: 333200649049622392
+    second: Bakery (closed)_29
+  - first:
+      213: 2009107513328566975
+    second: Bakery (closed)_30
+  - first:
+      213: -4991696045907371647
+    second: Bakery (closed)_31
+  - first:
+      213: 3946786791429614881
+    second: Bakery (closed)_32
+  - first:
+      213: -550139739279295145
+    second: Bakery (closed)_33
+  - first:
+      213: 3894217221683235176
+    second: Bakery (closed)_34
+  - first:
+      213: -5241261363218665342
+    second: Bakery (closed)_35
+  - first:
+      213: 212880578562397360
+    second: Bakery (closed)_36
+  - first:
+      213: 676386645259450732
+    second: Bakery (closed)_37
+  - first:
+      213: 8406621707649063171
+    second: Bakery (closed)_38
+  - first:
+      213: -3326713709832664943
+    second: Bakery (closed)_39
+  - first:
+      213: -848647460286400730
+    second: Bakery (closed)_40
+  - first:
+      213: -7796899345140913022
+    second: Bakery (closed)_41
+  - first:
+      213: -2258640808860621686
+    second: Bakery (closed)_42
+  - first:
+      213: -5200766592255087654
+    second: Bakery (closed)_43
+  - first:
+      213: -8069952698419270791
+    second: Bakery (closed)_44
+  - first:
+      213: -2965843439899734185
+    second: Bakery (closed)_45
+  - first:
+      213: 1934952354843718799
+    second: Bakery (closed)_46
+  - first:
+      213: -861620697307309786
+    second: Bakery (closed)_47
+  - first:
+      213: -8190363619050917873
+    second: Bakery (closed)_48
+  - first:
+      213: -4166742322992518432
+    second: Bakery (closed)_49
+  - first:
+      213: 7038742655940411465
+    second: Bakery (closed)_50
+  - first:
+      213: -2333922255728964329
+    second: Bakery (closed)_51
+  - first:
+      213: 5083069084632403533
+    second: Bakery (closed)_52
+  - first:
+      213: -6223753988410314244
+    second: Bakery (closed)_53
+  - first:
+      213: 1287508080356015945
+    second: Bakery (closed)_54
+  - first:
+      213: 3509139649063055598
+    second: Bakery (closed)_55
+  - first:
+      213: 7483518250432139547
+    second: Bakery (closed)_56
+  - first:
+      213: 8950906079273442731
+    second: Bakery (closed)_57
+  - first:
+      213: 6549336155196184532
+    second: Bakery (closed)_58
+  - first:
+      213: 6087245358284288574
+    second: Bakery (closed)_59
+  - first:
+      213: -4309926926570026107
+    second: Bakery (closed)_60
+  - first:
+      213: 3270082848836698102
+    second: Bakery (closed)_61
+  - first:
+      213: -3543429201118530719
+    second: Bakery (closed)_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bakery Closed Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 144
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc2aa4f073fac170800000000000000
+      internalID: 8199633738048089264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakery Closed Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 144
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcef2499b56ad7280800000000000000
+      internalID: -9043889564346548531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakery Closed Door
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 18
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb0e3148ae0a560800000000000000
+      internalID: 7323110847094504889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

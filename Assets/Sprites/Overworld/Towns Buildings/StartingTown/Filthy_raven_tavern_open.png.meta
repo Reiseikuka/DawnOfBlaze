@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: c3fc8dff0c28e484a907cf28aee955e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -522488969581336281
+    second: Filthy Raven Open Roof
+  - first:
+      213: 1367688992124670222
+    second: Filthy Raven Open Base
+  - first:
+      213: -4345403397308807820
+    second: Filthy Raven Open Door
+  - first:
+      213: -2469857426063578824
+    second: Filthy_raven_tavern_open_3
+  - first:
+      213: 2333921470003338833
+    second: Filthy_raven_tavern_open_4
+  - first:
+      213: 902716943839044199
+    second: Filthy_raven_tavern_open_5
+  - first:
+      213: -8133811256283037264
+    second: Filthy_raven_tavern_open_6
+  - first:
+      213: -6907772343205088973
+    second: Filthy_raven_tavern_open_7
+  - first:
+      213: -8729642729065493051
+    second: Filthy_raven_tavern_open_8
+  - first:
+      213: 8424823339079815481
+    second: Filthy_raven_tavern_open_9
+  - first:
+      213: -1319066809325988572
+    second: Filthy_raven_tavern_open_10
+  - first:
+      213: 2821179356286140481
+    second: Filthy_raven_tavern_open_11
+  - first:
+      213: 3876731491546130280
+    second: Filthy_raven_tavern_open_12
+  - first:
+      213: -8604279081144349771
+    second: Filthy_raven_tavern_open_13
+  - first:
+      213: 8271957465155482649
+    second: Filthy_raven_tavern_open_14
+  - first:
+      213: 7440084649687309050
+    second: Filthy_raven_tavern_open_15
+  - first:
+      213: 37565700051231892
+    second: Filthy_raven_tavern_open_16
+  - first:
+      213: 8745851385321485030
+    second: Filthy_raven_tavern_open_17
+  - first:
+      213: 624510540088033743
+    second: Filthy_raven_tavern_open_18
+  - first:
+      213: -8020961470845571476
+    second: Filthy_raven_tavern_open_19
+  - first:
+      213: 2662427486032888909
+    second: Filthy_raven_tavern_open_20
+  - first:
+      213: 2080194777406167175
+    second: Filthy_raven_tavern_open_21
+  - first:
+      213: 4845886111769078070
+    second: Filthy_raven_tavern_open_22
+  - first:
+      213: 2725648320498984838
+    second: Filthy_raven_tavern_open_23
+  - first:
+      213: 2472862357452856459
+    second: Filthy_raven_tavern_open_24
+  - first:
+      213: 5070792379612667413
+    second: Filthy_raven_tavern_open_25
+  - first:
+      213: 4114293952608245029
+    second: Filthy_raven_tavern_open_26
+  - first:
+      213: 2852394818049476261
+    second: Filthy_raven_tavern_open_27
+  - first:
+      213: 4825414543310734994
+    second: Filthy_raven_tavern_open_28
+  - first:
+      213: 1445669660444587762
+    second: Filthy_raven_tavern_open_29
+  - first:
+      213: -5168004613056429911
+    second: Filthy_raven_tavern_open_30
+  - first:
+      213: 2644867291384556007
+    second: Filthy_raven_tavern_open_31
+  - first:
+      213: -4885940002695607317
+    second: Filthy_raven_tavern_open_32
+  - first:
+      213: -2179459288974162789
+    second: Filthy_raven_tavern_open_33
+  - first:
+      213: -105187298346108548
+    second: Filthy_raven_tavern_open_34
+  - first:
+      213: -2531008183947510656
+    second: Filthy_raven_tavern_open_35
+  - first:
+      213: -4025316643676664888
+    second: Filthy_raven_tavern_open_36
+  - first:
+      213: 4903609724663515884
+    second: Filthy_raven_tavern_open_37
+  - first:
+      213: -8314139588346006370
+    second: Filthy_raven_tavern_open_38
+  - first:
+      213: -7025370413050575197
+    second: Filthy_raven_tavern_open_39
+  - first:
+      213: -5407914284345234454
+    second: Filthy_raven_tavern_open_40
+  - first:
+      213: -5293656066937780056
+    second: Filthy_raven_tavern_open_41
+  - first:
+      213: 8189765040624874405
+    second: Filthy_raven_tavern_open_42
+  - first:
+      213: 8783047950634363902
+    second: Filthy_raven_tavern_open_43
+  - first:
+      213: -7039135982492763859
+    second: Filthy_raven_tavern_open_44
+  - first:
+      213: 1930175914013228937
+    second: Filthy_raven_tavern_open_45
+  - first:
+      213: -2703674301093717683
+    second: Filthy_raven_tavern_open_46
+  - first:
+      213: 7341477033343634780
+    second: Filthy_raven_tavern_open_47
+  - first:
+      213: -6789272225512295445
+    second: Filthy_raven_tavern_open_48
+  - first:
+      213: -5982383102431274018
+    second: Filthy_raven_tavern_open_49
+  - first:
+      213: 737103744617470321
+    second: Filthy_raven_tavern_open_50
+  - first:
+      213: 4458799711828476396
+    second: Filthy_raven_tavern_open_51
+  - first:
+      213: -2967518268137541297
+    second: Filthy_raven_tavern_open_52
+  - first:
+      213: 6558847166188544012
+    second: Filthy_raven_tavern_open_53
+  - first:
+      213: 5785365637996541883
+    second: Filthy_raven_tavern_open_54
+  - first:
+      213: -3706586231843548215
+    second: Filthy_raven_tavern_open_55
+  - first:
+      213: 8826840840466512544
+    second: Filthy_raven_tavern_open_56
+  - first:
+      213: -2356136112899259701
+    second: Filthy_raven_tavern_open_57
+  - first:
+      213: 331464941999774614
+    second: Filthy_raven_tavern_open_58
+  - first:
+      213: 8604260654241843331
+    second: Filthy_raven_tavern_open_59
+  - first:
+      213: -4937708621094293198
+    second: Filthy_raven_tavern_open_60
+  - first:
+      213: 5869189340853667928
+    second: Filthy_raven_tavern_open_61
+  - first:
+      213: -6804726414320117220
+    second: Filthy_raven_tavern_open_62
+  - first:
+      213: -5323027251429935881
+    second: Filthy_raven_tavern_open_63
+  - first:
+      213: 7293333364870026869
+    second: Filthy_raven_tavern_open_64
+  - first:
+      213: -1999251447528031037
+    second: Filthy_raven_tavern_open_65
+  - first:
+      213: 3417529263045984079
+    second: Filthy_raven_tavern_open_66
+  - first:
+      213: 1490828449754332708
+    second: Filthy_raven_tavern_open_67
+  - first:
+      213: 8504353553871263138
+    second: Filthy_raven_tavern_open_68
+  - first:
+      213: 1377795383198062353
+    second: Filthy_raven_tavern_open_69
+  - first:
+      213: -1855345071541087583
+    second: Filthy_raven_tavern_open_70
+  - first:
+      213: -6619499348223451721
+    second: Filthy_raven_tavern_open_71
+  - first:
+      213: 2162282255836837440
+    second: Filthy_raven_tavern_open_72
+  - first:
+      213: 3734349778680805410
+    second: Filthy_raven_tavern_open_73
+  - first:
+      213: -3389198030682924455
+    second: Filthy_raven_tavern_open_74
+  - first:
+      213: 3786452305772173437
+    second: Filthy_raven_tavern_open_75
+  - first:
+      213: 5715561327455881333
+    second: Filthy_raven_tavern_open_76
+  - first:
+      213: -1311085163886657751
+    second: Filthy_raven_tavern_open_77
+  - first:
+      213: -2384467237204772887
+    second: Filthy_raven_tavern_open_78
+  - first:
+      213: -2786260530993493683
+    second: Filthy_raven_tavern_open_79
+  - first:
+      213: 2485989540555307262
+    second: Filthy_raven_tavern_open_80
+  - first:
+      213: 8665054283230625395
+    second: Filthy_raven_tavern_open_81
+  - first:
+      213: -2097446120253984660
+    second: Filthy_raven_tavern_open_82
+  - first:
+      213: 8404816660779211879
+    second: Filthy_raven_tavern_open_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Filthy Raven Open Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 160
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -8}
+        - {x: 4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: -7}
+        - {x: 6, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7296b09ec0fbfb8f0800000000000000
+      internalID: -522488969581336281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Filthy Raven Open Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -6}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+        - {x: 3, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e019dca54e10bf210800000000000000
+      internalID: 1367688992124670222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Filthy Raven Open Door
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 6}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+        - {x: 3, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47502a112a602b3c0800000000000000
+      internalID: -4345403397308807820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

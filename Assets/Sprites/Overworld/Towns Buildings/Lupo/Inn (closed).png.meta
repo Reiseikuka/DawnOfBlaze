@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 76761e71824b8d24cbe4022064dd1653
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3722262229377111167
+    second: Inn Closed Roof
+  - first:
+      213: -437462115128962126
+    second: Inn Closed Base
+  - first:
+      213: 8141256904433898087
+    second: Inn Closed Door
+  - first:
+      213: -9099410743611735979
+    second: Inn (closed)_3
+  - first:
+      213: -9208577490359805473
+    second: Inn (closed)_4
+  - first:
+      213: 7106492545777481273
+    second: Inn (closed)_5
+  - first:
+      213: -4616848288040946685
+    second: Inn (closed)_6
+  - first:
+      213: 3384354387906009562
+    second: Inn (closed)_7
+  - first:
+      213: 216189346150951757
+    second: Inn (closed)_8
+  - first:
+      213: -5822729282316435940
+    second: Inn (closed)_9
+  - first:
+      213: -4906287677757426813
+    second: Inn (closed)_10
+  - first:
+      213: 6178243631134559131
+    second: Inn (closed)_11
+  - first:
+      213: 4297650832948872668
+    second: Inn (closed)_12
+  - first:
+      213: 2323282442220429556
+    second: Inn (closed)_13
+  - first:
+      213: -114847486097417963
+    second: Inn (closed)_14
+  - first:
+      213: -1960765645290927226
+    second: Inn (closed)_15
+  - first:
+      213: -2696614772613180591
+    second: Inn (closed)_16
+  - first:
+      213: -6490364084229978855
+    second: Inn (closed)_17
+  - first:
+      213: 5752739599648380025
+    second: Inn (closed)_18
+  - first:
+      213: 2786387977752091969
+    second: Inn (closed)_19
+  - first:
+      213: 1257978313735132994
+    second: Inn (closed)_20
+  - first:
+      213: 7274976487695560974
+    second: Inn (closed)_21
+  - first:
+      213: 7856441709507806436
+    second: Inn (closed)_22
+  - first:
+      213: 5566160986038481484
+    second: Inn (closed)_23
+  - first:
+      213: -2410037366919032965
+    second: Inn (closed)_24
+  - first:
+      213: 6609138234643721517
+    second: Inn (closed)_25
+  - first:
+      213: -6586833323357577482
+    second: Inn (closed)_26
+  - first:
+      213: 2252713873036105803
+    second: Inn (closed)_27
+  - first:
+      213: -4809433177701008669
+    second: Inn (closed)_28
+  - first:
+      213: -4097154718869406829
+    second: Inn (closed)_29
+  - first:
+      213: -5821858574904746238
+    second: Inn (closed)_30
+  - first:
+      213: 1003227588956436707
+    second: Inn (closed)_31
+  - first:
+      213: -5083389460213705356
+    second: Inn (closed)_32
+  - first:
+      213: -7949897470443833092
+    second: Inn (closed)_33
+  - first:
+      213: 320561769185507216
+    second: Inn (closed)_34
+  - first:
+      213: 8479193103201038891
+    second: Inn (closed)_35
+  - first:
+      213: 1307846805061049490
+    second: Inn (closed)_36
+  - first:
+      213: -1203625015370353191
+    second: Inn (closed)_37
+  - first:
+      213: -3718680394497823652
+    second: Inn (closed)_38
+  - first:
+      213: 4191887680527499294
+    second: Inn (closed)_39
+  - first:
+      213: 1295520027832323116
+    second: Inn (closed)_40
+  - first:
+      213: 8999110254109928897
+    second: Inn (closed)_41
+  - first:
+      213: -2116076052883691792
+    second: Inn (closed)_42
+  - first:
+      213: 3430048259717431085
+    second: Inn (closed)_43
+  - first:
+      213: 8758617804363283868
+    second: Inn (closed)_44
+  - first:
+      213: 2367817454639143295
+    second: Inn (closed)_45
+  - first:
+      213: 3422351078173944417
+    second: Inn (closed)_46
+  - first:
+      213: 7584852154259261712
+    second: Inn (closed)_47
+  - first:
+      213: 2784095361224220705
+    second: Inn (closed)_48
+  - first:
+      213: 3534540333780411941
+    second: Inn (closed)_49
+  - first:
+      213: 2900407347658353897
+    second: Inn (closed)_50
+  - first:
+      213: 3398670249883158703
+    second: Inn (closed)_51
+  - first:
+      213: -143031659240960667
+    second: Inn (closed)_52
+  - first:
+      213: -6965454983817759949
+    second: Inn (closed)_53
+  - first:
+      213: 8926633123018757473
+    second: Inn (closed)_54
+  - first:
+      213: 3165903823138419220
+    second: Inn (closed)_55
+  - first:
+      213: 3069143600262599066
+    second: Inn (closed)_56
+  - first:
+      213: 8295326328311844432
+    second: Inn (closed)_57
+  - first:
+      213: -833817718231615771
+    second: Inn (closed)_58
+  - first:
+      213: -939293445175910319
+    second: Inn (closed)_59
+  - first:
+      213: 5640813041695861517
+    second: Inn (closed)_60
+  - first:
+      213: 8575469069716672384
+    second: Inn (closed)_61
+  - first:
+      213: 6335539872887373475
+    second: Inn (closed)_62
+  - first:
+      213: 6436338266388926968
+    second: Inn (closed)_63
+  - first:
+      213: -1735964649143600784
+    second: Inn (closed)_64
+  - first:
+      213: -5851997451607378006
+    second: Inn (closed)_65
+  - first:
+      213: 8863813303530406157
+    second: Inn (closed)_66
+  - first:
+      213: -3459062725995390519
+    second: Inn (closed)_67
+  - first:
+      213: -7235797294912381666
+    second: Inn (closed)_68
+  - first:
+      213: 72999079935746804
+    second: Inn (closed)_69
+  - first:
+      213: -1810132821144566774
+    second: Inn (closed)_70
+  - first:
+      213: -3935524557861166625
+    second: Inn (closed)_71
+  - first:
+      213: 467149375156253835
+    second: Inn (closed)_72
+  - first:
+      213: 2812100217147475128
+    second: Inn (closed)_73
+  - first:
+      213: 1300121331883863907
+    second: Inn (closed)_74
+  - first:
+      213: -2682985393408980504
+    second: Inn (closed)_75
+  - first:
+      213: 3331923937750178059
+    second: Inn (closed)_76
+  - first:
+      213: -7385094564996067316
+    second: Inn (closed)_77
+  - first:
+      213: 6301343005174482355
+    second: Inn (closed)_78
+  - first:
+      213: 161562066533007099
+    second: Inn (closed)_79
+  - first:
+      213: -6153911813895492218
+    second: Inn (closed)_80
+  - first:
+      213: 281153107942062170
+    second: Inn (closed)_81
+  - first:
+      213: 6660660344807310412
+    second: Inn (closed)_82
+  - first:
+      213: -6866077988163459396
+    second: Inn (closed)_83
+  - first:
+      213: -3687776965158025445
+    second: Inn (closed)_84
+  - first:
+      213: -5584953849473920254
+    second: Inn (closed)_85
+  - first:
+      213: -76479441819952050
+    second: Inn (closed)_86
+  - first:
+      213: 1809587456755229644
+    second: Inn (closed)_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inn Closed Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 160
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18baf19493ed75cc0800000000000000
+      internalID: -3722262229377111167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Closed Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 160
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b31c092682dde9f0800000000000000
+      internalID: -437462115128962126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Closed Door
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 15
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7629af5350e8bf070800000000000000
+      internalID: 8141256904433898087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

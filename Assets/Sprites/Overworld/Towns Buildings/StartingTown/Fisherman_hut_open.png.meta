@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: b05e144c2a27add49a690e3100380e95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -473179738563066271
+    second: Fisherman Hut Open Roof
+  - first:
+      213: 3432439232562691452
+    second: Fisherman Hut Open Base
+  - first:
+      213: -2817119070930341064
+    second: Fisherman Hut Open Door
+  - first:
+      213: -4477347672907026691
+    second: Fisherman_hut_open_3
+  - first:
+      213: 7229690667289107845
+    second: Fisherman_hut_open_4
+  - first:
+      213: 3249777261623820259
+    second: Fisherman_hut_open_5
+  - first:
+      213: 8303612187195001472
+    second: Fisherman_hut_open_6
+  - first:
+      213: 5085070863597615546
+    second: Fisherman_hut_open_7
+  - first:
+      213: 7591042057564622716
+    second: Fisherman_hut_open_8
+  - first:
+      213: -9105570916384106233
+    second: Fisherman_hut_open_9
+  - first:
+      213: 6094114898538821662
+    second: Fisherman_hut_open_10
+  - first:
+      213: 5378715640060193769
+    second: Fisherman_hut_open_11
+  - first:
+      213: -1833861201563688980
+    second: Fisherman_hut_open_12
+  - first:
+      213: -7545601347339510154
+    second: Fisherman_hut_open_13
+  - first:
+      213: 8228471971929254464
+    second: Fisherman_hut_open_14
+  - first:
+      213: 8410629722499559265
+    second: Fisherman_hut_open_15
+  - first:
+      213: -7502830546995931060
+    second: Fisherman_hut_open_16
+  - first:
+      213: -5903982721240637474
+    second: Fisherman_hut_open_17
+  - first:
+      213: 620572715565828287
+    second: Fisherman_hut_open_18
+  - first:
+      213: -6389447962313046528
+    second: Fisherman_hut_open_19
+  - first:
+      213: -131308115118555368
+    second: Fisherman_hut_open_20
+  - first:
+      213: 6674949643904341037
+    second: Fisherman_hut_open_21
+  - first:
+      213: -4922109800360752140
+    second: Fisherman_hut_open_22
+  - first:
+      213: 2076574948024919678
+    second: Fisherman_hut_open_23
+  - first:
+      213: -8645418591068667393
+    second: Fisherman_hut_open_24
+  - first:
+      213: 4716862032966391314
+    second: Fisherman_hut_open_25
+  - first:
+      213: -442183851003412097
+    second: Fisherman_hut_open_26
+  - first:
+      213: -1494267550314662589
+    second: Fisherman_hut_open_27
+  - first:
+      213: -8118912572653157124
+    second: Fisherman_hut_open_28
+  - first:
+      213: 5775778312637179010
+    second: Fisherman_hut_open_29
+  - first:
+      213: 886389896980557206
+    second: Fisherman_hut_open_30
+  - first:
+      213: 4297039276989355179
+    second: Fisherman_hut_open_31
+  - first:
+      213: 7832422956318913810
+    second: Fisherman_hut_open_32
+  - first:
+      213: -4186365470334550590
+    second: Fisherman_hut_open_33
+  - first:
+      213: 8453067649372571882
+    second: Fisherman_hut_open_34
+  - first:
+      213: 6937075196455173139
+    second: Fisherman_hut_open_35
+  - first:
+      213: -618212697506524562
+    second: Fisherman_hut_open_36
+  - first:
+      213: 5798663462682154853
+    second: Fisherman_hut_open_37
+  - first:
+      213: -4444809588727622417
+    second: Fisherman_hut_open_38
+  - first:
+      213: -6473969563645609599
+    second: Fisherman_hut_open_39
+  - first:
+      213: -494456529779052351
+    second: Fisherman_hut_open_40
+  - first:
+      213: 6023179474773007557
+    second: Fisherman_hut_open_41
+  - first:
+      213: 1362508581548251688
+    second: Fisherman_hut_open_42
+  - first:
+      213: 6620179339296067977
+    second: Fisherman_hut_open_43
+  - first:
+      213: 5616739820485977695
+    second: Fisherman_hut_open_44
+  - first:
+      213: 4788890150131036448
+    second: Fisherman_hut_open_45
+  - first:
+      213: -2691419322389332730
+    second: Fisherman_hut_open_46
+  - first:
+      213: -5921378240399913837
+    second: Fisherman_hut_open_47
+  - first:
+      213: -9169387877655136075
+    second: Fisherman_hut_open_48
+  - first:
+      213: 1988984437833922055
+    second: Fisherman_hut_open_49
+  - first:
+      213: -611064252276682932
+    second: Fisherman_hut_open_50
+  - first:
+      213: 7837942089867899732
+    second: Fisherman_hut_open_51
+  - first:
+      213: 1346240949906046124
+    second: Fisherman_hut_open_52
+  - first:
+      213: -2339156348850869056
+    second: Fisherman_hut_open_53
+  - first:
+      213: -665380537621840478
+    second: Fisherman_hut_open_54
+  - first:
+      213: -8620697401986516433
+    second: Fisherman_hut_open_55
+  - first:
+      213: -5460554913853212714
+    second: Fisherman_hut_open_56
+  - first:
+      213: -5822174929456766899
+    second: Fisherman_hut_open_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fisherman Hut Open Roof
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 90
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1664908e88dee69f0800000000000000
+      internalID: -473179738563066271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman Hut Open Base
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d7302db4972af20800000000000000
+      internalID: 3432439232562691452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman Hut Open Door
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 67
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833f737712597e8d0800000000000000
+      internalID: -2817119070930341064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

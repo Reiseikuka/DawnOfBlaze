@@ -15,7 +15,7 @@ MonoBehaviour:
   speaker1: {fileID: 11400000, guid: 30214747dc20eb84abe00494bfd2b1be, type: 2}
   speaker2: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
   lines:
-  - character: {fileID: 11400000, guid: 30214747dc20eb84abe00494bfd2b1be, type: 2}
+  - character: {fileID: 11400000, guid: d7f9f17829d6bd14c9345de0b301b33f, type: 2}
     text: This is a Default Test
     mood: 0
   - character: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
