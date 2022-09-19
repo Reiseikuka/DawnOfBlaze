@@ -1,100 +1,100 @@
 fileFormatVersion: 2
-guid: a9cc8fe058e7d274a881502728bb87e2
+guid: 863dd4b17531d104887b35cf55509a82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7386238572263829190
-    second: Annetes Church Roof
+      213: -8812410782140478639
+    second: Annetes Open Church Roof
   - first:
-      213: 269491658357460124
-    second: Annetes Church Door
+      213: 7136660600793309213
+    second: Annetes Open Church Base
   - first:
-      213: 5250020536402615366
-    second: Annetes Church Base
+      213: 3167949356867111257
+    second: Annetes Open Church Door
   - first:
-      213: 2228675766574630665
-    second: Annettes_Church_closed_3
+      213: 7954886877831623763
+    second: Annettes_Church_open_3
   - first:
-      213: 1123600915842194313
-    second: Annettes_Church_closed_4
+      213: 2750853054015325313
+    second: Annettes_Church_open_4
   - first:
-      213: 8243887906456171555
-    second: Annettes_Church_closed_5
+      213: -6083747691140109316
+    second: Annettes_Church_open_5
   - first:
-      213: -6877140369019914555
-    second: Annettes_Church_closed_6
+      213: 2476164303819515574
+    second: Annettes_Church_open_6
   - first:
-      213: -7015317796210604387
-    second: Annettes_Church_closed_7
+      213: 6135355025558005090
+    second: Annettes_Church_open_7
   - first:
-      213: -502078202142422940
-    second: Annettes_Church_closed_8
+      213: 3015617877016309690
+    second: Annettes_Church_open_8
   - first:
-      213: -599390627370478052
-    second: Annettes_Church_closed_9
+      213: -8642286579541681845
+    second: Annettes_Church_open_9
   - first:
-      213: -5948527009445643897
-    second: Annettes_Church_closed_10
+      213: 2104670751457050970
+    second: Annettes_Church_open_10
   - first:
-      213: -3377795167778852525
-    second: Annettes_Church_closed_11
+      213: -7243827268908730344
+    second: Annettes_Church_open_11
   - first:
-      213: -7189519710984467225
-    second: Annettes_Church_closed_12
+      213: 4485297019742998877
+    second: Annettes_Church_open_12
   - first:
-      213: 5088418931892799442
-    second: Annettes_Church_closed_13
+      213: 6544610902239018007
+    second: Annettes_Church_open_13
   - first:
-      213: 1538660300129170511
-    second: Annettes_Church_closed_14
+      213: -5036192600004618066
+    second: Annettes_Church_open_14
   - first:
-      213: -8857020429078332169
-    second: Annettes_Church_closed_15
+      213: 2336847385115151786
+    second: Annettes_Church_open_15
   - first:
-      213: 6330995705808442403
-    second: Annettes_Church_closed_16
+      213: -3175431183206866045
+    second: Annettes_Church_open_16
   - first:
-      213: -2263300515505121767
-    second: Annettes_Church_closed_17
+      213: 7992731311603185310
+    second: Annettes_Church_open_17
   - first:
-      213: -2608886692215819390
-    second: Annettes_Church_closed_18
+      213: -2597323378607027995
+    second: Annettes_Church_open_18
   - first:
-      213: 5928807070165761001
-    second: Annettes_Church_closed_19
+      213: -2462438738154905784
+    second: Annettes_Church_open_19
   - first:
-      213: 6206243832962099172
-    second: Annettes_Church_closed_20
+      213: 3861114598435469518
+    second: Annettes_Church_open_20
   - first:
-      213: 435805455048230490
-    second: Annettes_Church_closed_21
+      213: 7625679219995601088
+    second: Annettes_Church_open_21
   - first:
-      213: -1090637859555867794
-    second: Annettes_Church_closed_22
+      213: -8548172561745691744
+    second: Annettes_Church_open_22
   - first:
-      213: -7473613942321608908
-    second: Annettes_Church_closed_23
+      213: -4341450992697365768
+    second: Annettes_Church_open_23
   - first:
-      213: 2264464208174702607
-    second: Annettes_Church_closed_24
+      213: 2677286873264273877
+    second: Annettes_Church_open_24
   - first:
-      213: -8789895451604373888
-    second: Annettes_Church_closed_25
+      213: 496305473502563997
+    second: Annettes_Church_open_25
   - first:
-      213: -1243787895080027622
-    second: Annettes_Church_closed_26
+      213: -8813463448122771154
+    second: Annettes_Church_open_26
   - first:
-      213: 9002717866805679592
-    second: Annettes_Church_closed_27
+      213: -1935375463920458372
+    second: Annettes_Church_open_27
   - first:
-      213: -1308990726618720984
-    second: Annettes_Church_closed_28
+      213: 4852715715790084454
+    second: Annettes_Church_open_28
   - first:
-      213: -133267201015958040
-    second: Annettes_Church_closed_29
+      213: 7238653174818236274
+    second: Annettes_Church_open_29
   - first:
-      213: -5947981835045816743
-    second: Annettes_Church_closed_30
+      213: 3044780431863777262
+    second: Annettes_Church_open_30
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -184,33 +184,60 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Annetes Church Roof
+      name: Annetes Open Church Roof
       rect:
         serializedVersion: 2
         x: 0
-        y: 58
+        y: 36
         width: 80
-        height: 54
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 4, y: 0}
-        - {x: 4, y: -8}
+      - - {x: 5, y: 0}
+        - {x: 5, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 2}
+        - {x: 8, y: 3}
         - {x: 6, y: 2}
       tessellationDetail: 0
       bones: []
-      spriteID: 6cee216f8d0318660800000000000000
-      internalID: 7386238572263829190
+      spriteID: 15bc1b3751704b580800000000000000
+      internalID: -8812410782140478639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Annetes Church Door
+      name: Annetes Open Church Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10afc831038a0360800000000000000
+      internalID: 7136660600793309213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Annetes Open Church Door
       rect:
         serializedVersion: 2
         x: 33
@@ -222,42 +249,15 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -6, y: 5}
-        - {x: -8, y: 4}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 3}
-        - {x: 4, y: 5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9cc3564c3d6db300800000000000000
-      internalID: 269491658357460124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Annetes Church Base
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3
-        width: 80
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
       - - {x: -8, y: -8}
-        - {x: -4, y: -8}
-        - {x: -4, y: 0}
+        - {x: -5, y: -8}
+        - {x: -5, y: 1}
         - {x: -6, y: 2}
         - {x: -8, y: 2}
       tessellationDetail: 0
       bones: []
-      spriteID: 64c98cfacd1dbd840800000000000000
-      internalID: 5250020536402615366
+      spriteID: 959cd72d721d6fb20800000000000000
+      internalID: 3167949356867111257
       vertices: []
       indices: 
       edges: []
