@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: c44b642d11761494eb6bdbd1c3c0caa8
+guid: bdbb599849709244bb08ee6f6c6f2cc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3146076345335354986
-    second: House Open Door
+      213: -245672013126887130
+    second: House Closed Roof
   - first:
-      213: -2702195814214510618
-    second: House Open Base
+      213: -8796554157320426234
+    second: House Closed Base
   - first:
-      213: -7274819724632155638
-    second: House Open Roof
+      213: -314858290763954532
+    second: House Closed Door
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,7 +100,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: House Open Door
+      name: House Closed Roof
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629115e0b92379cf0800000000000000
+      internalID: -245672013126887130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Closed Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d2e6d999c5ce580800000000000000
+      internalID: -8796554157320426234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Closed Door
       rect:
         serializedVersion: 2
         x: 33
@@ -108,56 +150,14 @@ TextureImporter:
         width: 14
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6619f774cb19ab20800000000000000
-      internalID: 3146076345335354986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: House Open Base
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e7523c493fdf7ad0800000000000000
-      internalID: -2702195814214510618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: House Open Roof
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 67
-        width: 80
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0a9b4c0106aa0b90800000000000000
-      internalID: -7274819724632155638
+      spriteID: c968d608d0661abf0800000000000000
+      internalID: -314858290763954532
       vertices: []
       indices: 
       edges: []

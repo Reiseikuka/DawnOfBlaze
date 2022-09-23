@@ -13,10 +13,10 @@ TextureImporter:
     second: Smithy  Closed Door
   - first:
       213: 6107606730829483284
-    second: Smithy (closed)_3
+    second: Smitty sign
   - first:
       213: 2385588660622061410
-    second: Smithy (closed)_4
+    second: Smitty sign base1
   - first:
       213: 1943176831986673618
     second: Smithy (closed)_5
@@ -323,6 +323,27 @@ TextureImporter:
       bones: []
       spriteID: 36b52329f4309b0d0800000000000000
       internalID: -3406688002838996125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smitty sign
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 42
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d40e256f392c450800000000000000
+      internalID: 6107606730829483284
       vertices: []
       indices: 
       edges: []
