@@ -17,7 +17,8 @@ MonoBehaviour:
   CharAge: 29
   CharKind: Human
   CharClass: Ex-Soldier
-  CharAnimPortrait: {fileID: 0}
+  CharProfilePortrait: {fileID: 21300000, guid: f064ab198bed5a243ae027b47393545e, type: 3}
+  CharStatPortrait: {fileID: 21300000, guid: 61ed0ac80c356e6428378c53a66c40f7, type: 3}
   CharHP: 100
   CharMaxHP: 100
   CharIP: 40

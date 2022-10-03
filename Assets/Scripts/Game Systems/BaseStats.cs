@@ -21,7 +21,9 @@ public class BaseStats : ScriptableObject
       //Specie of the character
       public string CharClass;
       //Character speciality
-      public Sprite CharAnimPortrait;
+      public Sprite CharProfilePortrait;
+      //Character animation for the Menu window
+      public Sprite CharStatPortrait;
       //Character animation for the Status window
 
       [Header("Basic Stats")]

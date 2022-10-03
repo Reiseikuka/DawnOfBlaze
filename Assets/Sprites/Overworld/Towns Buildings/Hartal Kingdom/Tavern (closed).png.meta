@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2349207254008279202
-    second: Tavern Closed Roof
+    second: Tavern Closed Roof 1
   - first:
       213: -1556722594848585841
-    second: Tavern Closed Base
+    second: Tavern Closed Lantern 1
   - first:
       213: -5261408469198286855
-    second: Tavern (closed)_2
+    second: Tavern Closed Door
   - first:
       213: -2852658409194891163
-    second: Tavern (closed)_3
+    second: Tavern Closed Lantern 2
   - first:
       213: 1503733741839517250
-    second: Tavern (closed)_4
+    second: Tavern Closed Roof 2
   - first:
       213: -1265952054415223199
-    second: Tavern (closed)_5
+    second: Tavern Closed Base 1
   - first:
       213: 951418992888845706
-    second: Tavern (closed)_6
+    second: Tavern Closed Roof 3
   - first:
       213: -1522120351968707189
-    second: Tavern (closed)_7
+    second: Tavern Closed Base 2
   - first:
       213: -256389244377809318
-    second: Tavern (closed)_8
+    second: Tavern Closed Lantern 1b
   - first:
       213: 5234420977256779734
-    second: Tavern (closed)_9
+    second: Tavern Closed Lantern 2b
   - first:
       213: -3660248696125290750
     second: Tavern (closed)_10
@@ -259,13 +259,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tavern Closed Roof
+      name: Tavern Closed Roof 1
       rect:
         serializedVersion: 2
         x: 0
-        y: 57
-        width: 139
-        height: 55
+        y: 28
+        width: 88
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,13 +280,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tavern Closed Base
+      name: Tavern Closed Lantern 1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 139
-        height: 57
+        x: 4
+        y: 18
+        width: 9
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tavern (closed)_2
+      name: Tavern Closed Door
       rect:
         serializedVersion: 2
         x: 37
@@ -317,6 +317,153 @@ TextureImporter:
       bones: []
       spriteID: 9ff44379fd8bbf6b0800000000000000
       internalID: -5261408469198286855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Lantern 2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56858667a425968d0800000000000000
+      internalID: -2852658409194891163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Roof 2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 45
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2460d1ffed55ed410800000000000000
+      internalID: 1503733741839517250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Base 1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16697e5505f6e6ee0800000000000000
+      internalID: -1265952054415223199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Roof 3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 45
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8513bf788e143d00800000000000000
+      internalID: 951418992888845706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Base 2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d338bba9750eae0800000000000000
+      internalID: -1522120351968707189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Lantern 1b
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 13
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e31a4375f117cf0800000000000000
+      internalID: -256389244377809318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tavern Closed Lantern 2b
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 29
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df4e3a452664a840800000000000000
+      internalID: 5234420977256779734
       vertices: []
       indices: 
       edges: []

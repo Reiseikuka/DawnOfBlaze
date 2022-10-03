@@ -25,6 +25,19 @@ MonoBehaviour:
     text: Yet one can hope for a great and beautiful sunny day that is worth having
       ice cream with.
     mood: 0
+  - character: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
+    text: By the way, do you know this is a test conversation to say hello to all
+      of people in Social Media?
+    mood: 2
+  - character: {fileID: 11400000, guid: d7f9f17829d6bd14c9345de0b301b33f, type: 2}
+    text: "Oh  really? I didn't knew about that. \xA1Hello Social Media!"
+    mood: 0
+  - character: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
+    text: ...
+    mood: 0
+  - character: {fileID: 11400000, guid: d7f9f17829d6bd14c9345de0b301b33f, type: 2}
+    text: ...
+    mood: 0
   nextConversation: {fileID: 11400000, guid: 7a61f0296e1d31a48ad110a98cb8222f, type: 2}
   ContieneInteraccionExtra: 0
   InteraccionExtra: 0

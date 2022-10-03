@@ -81,7 +81,7 @@ public class GameMenu : MonoBehaviour
             {
                 charStatHolder[i].SetActive(true);
 
-                charImage[i].sprite = stats[i].CharAnimPortrait; 
+                charImage[i].sprite = stats[i].CharProfilePortrait; 
                 nameText[i].text = stats[i].CharName;
                 hpText[i].text = "HP: " + stats[i].CharHP.ToString() + "/" + stats[i].CharMaxHP.ToString();
                 ipText[i].text = "IP: " + stats[i].CharIP.ToString() + "/" + stats[i].CharMaxIP.ToString();
@@ -160,8 +160,8 @@ public class GameMenu : MonoBehaviour
 
     public void StatusChar(int selected)
     {
-        statusImage.sprite = stats[selected].CharAnimPortrait;
-        statusName.text = stats[selected].CharName + "" + stats[selected].CharLastName;
+        statusImage.sprite = stats[selected].CharStatPortrait;
+        statusName.text = stats[selected].CharName + " " + " "+ stats[selected].CharLastName;
         statusHP.text = stats[selected].CharHP + "/" + stats[selected].CharMaxHP;
         statusIP.text = stats[selected].CharIP + "/" + stats[selected].CharMaxIP;
         statusStr.text = stats[selected].CharStrength.ToString();

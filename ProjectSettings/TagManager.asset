@@ -41,13 +41,13 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: Ground Tilemap
     uniqueID: 1092551187
     locked: 0
-  - name: Tilemap_Limits
+  - name: Limits Tilemap
     uniqueID: 1161118581
     locked: 0
-  - name: Solid  Objects
+  - name: Solid Objects Lower
     uniqueID: 1848328733
     locked: 0
   - name: NPCS
@@ -58,6 +58,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 4127883747
+    locked: 0
+  - name: Solid Objects Upper
+    uniqueID: 128061803
     locked: 0
   - name: BuildingsUpper
     uniqueID: 1816936887

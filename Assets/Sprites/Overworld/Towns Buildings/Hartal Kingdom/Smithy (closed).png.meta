@@ -16,7 +16,7 @@ TextureImporter:
     second: Smitty sign
   - first:
       213: 2385588660622061410
-    second: Smitty sign base1
+    second: Smithy Closed Barrel
   - first:
       213: 1943176831986673618
     second: Smithy (closed)_5
@@ -344,6 +344,27 @@ TextureImporter:
       bones: []
       spriteID: 41d40e256f392c450800000000000000
       internalID: 6107606730829483284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smithy Closed Barrel
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe3985f305b1120800000000000000
+      internalID: 2385588660622061410
       vertices: []
       indices: 
       edges: []

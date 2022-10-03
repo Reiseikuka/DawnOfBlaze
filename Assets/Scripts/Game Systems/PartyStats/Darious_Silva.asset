@@ -17,6 +17,7 @@ MonoBehaviour:
   CharAge: 19
   CharKind: Vulpex
   CharClass: Adventurer
+  CharProfilePortrait: {fileID: 21300000, guid: 467ba9fbe55f423468cd6a9bc5d49a72, type: 3}
   CharAnimPortrait: {fileID: 0}
   CharHP: 80
   CharMaxHP: 80

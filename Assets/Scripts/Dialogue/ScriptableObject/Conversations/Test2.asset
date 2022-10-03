@@ -16,16 +16,16 @@ MonoBehaviour:
   speaker2: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
   lines:
   - character: {fileID: 11400000, guid: d7f9f17829d6bd14c9345de0b301b33f, type: 2}
-    text: Yeah...
+    text: Uhh...is there another thing to do behind saying hello?
     mood: 0
   - character: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
-    text: Hold on, can we really finish this  Dialogue  already?
-    mood: 1
+    text: Maybe on the next update...
+    mood: 4
   - character: {fileID: 11400000, guid: d7f9f17829d6bd14c9345de0b301b33f, type: 2}
-    text: I think so, yeah
+    text: "Ohh...alright. \xA1Thanks for watching guys!"
     mood: 0
   - character: {fileID: 11400000, guid: 5f2994ffecdb0a24398ba12db2e873b0, type: 2}
-    text: Good
+    text: As he says, thank you for watching the WIP guys.
     mood: 2
   nextConversation: {fileID: 0}
   ContieneInteraccionExtra: 0
