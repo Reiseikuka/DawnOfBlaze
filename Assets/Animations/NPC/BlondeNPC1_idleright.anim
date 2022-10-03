@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HumFe3_Up
+  m_Name: BlondeNPC1_idleright
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,18 +20,12 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1925354536206013718, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
-    - time: 0.25
-      value: {fileID: 7942468969702294824, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
-    - time: 0.5
-      value: {fileID: 4841671980369267527, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
-    - time: 0.75
-      value: {fileID: -6015093740568724247, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
+      value: {fileID: -1229317359290938535, guid: 51f29f2ca7dcac04a824767cd9f627fa, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 4
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -46,16 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1925354536206013718, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
-    - {fileID: 7942468969702294824, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
-    - {fileID: 4841671980369267527, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
-    - {fileID: -6015093740568724247, guid: efd67e2590fbd1741a189ab34854450f, type: 3}
+    - {fileID: -1229317359290938535, guid: 51f29f2ca7dcac04a824767cd9f627fa, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.125
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
