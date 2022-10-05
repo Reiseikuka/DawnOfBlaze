@@ -13737,7 +13737,6 @@ GameObject:
   - component: {fileID: 720221617}
   - component: {fileID: 720221616}
   - component: {fileID: 720221620}
-  - component: {fileID: 720221615}
   m_Layer: 0
   m_Name: NPC2
   m_TagString: Untagged
@@ -13745,21 +13744,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &720221615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720221614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a74be1c106dbf2645a79d71ee4e0a582, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  startWaitTime: 0
-  moveSpots: []
 --- !u!95 &720221616
 Animator:
   serializedVersion: 3
@@ -42193,9 +42177,8 @@ GameObject:
   - component: {fileID: 1403780213}
   - component: {fileID: 1403780212}
   - component: {fileID: 1403780215}
-  - component: {fileID: 1403780216}
-  - component: {fileID: 1403780211}
   - component: {fileID: 1403780210}
+  - component: {fileID: 1403780211}
   m_Layer: 0
   m_Name: NPC1
   m_TagString: Untagged
@@ -42222,6 +42205,7 @@ MonoBehaviour:
   - {fileID: 1724096490}
   - {fileID: 469430699}
   - {fileID: 1440364141}
+  anim: {fileID: 1403780211}
 --- !u!95 &1403780211
 Animator:
   serializedVersion: 3
@@ -42332,27 +42316,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6855011, y: 1.067767}
   m_EdgeRadius: 0
---- !u!50 &1403780216
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403780209}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!4 &1418916346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6393421934996779413, guid: 3238e187632f75743aea5aa12f6955ed, type: 3}
@@ -42947,7 +42910,6 @@ GameObject:
   - component: {fileID: 1523238281}
   - component: {fileID: 1523238280}
   - component: {fileID: 1523238284}
-  - component: {fileID: 1523238279}
   m_Layer: 0
   m_Name: NPC3
   m_TagString: Untagged
@@ -42955,21 +42917,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1523238279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523238278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a74be1c106dbf2645a79d71ee4e0a582, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  startWaitTime: 0
-  moveSpots: []
 --- !u!95 &1523238280
 Animator:
   serializedVersion: 3
