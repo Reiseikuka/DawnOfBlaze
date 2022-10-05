@@ -40,13 +40,18 @@ public class NPCPatrol : MonoBehaviour
 
     void Update()
     {
-       vectordirection = transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+        vectordirection =  transform.position;
         /*Where NPC will move from first(current position) 
           and where NPC will move to then (random position from 
           the array with the Spots to move to)*/
         anim.SetFloat("MoveX", vectordirection.x);
         anim.SetFloat("MoveY", vectordirection.y);
 
+        if (vectordirection.x == 1 || vectordirection.x == -1)
+        {
+            anim.SetFloat("lastMoveX") = Vector2.x;
+        }
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
                 /*If the distance between the initial position and
