@@ -22,9 +22,12 @@ public class NPCPatrol : MonoBehaviour
     private int randomSpot;
     //Pick a random position from the movespot array
 
+    public Animator anim;
+    //reference to our animator
 
     void Start()
     {
+        anim = GetComponent<Animator>();
 
         waitTime = startWaitTime;
         /*Obtaining the time value that was decided*/
@@ -36,6 +39,9 @@ public class NPCPatrol : MonoBehaviour
 
     void Update()
     {
+       anim.SetBool("isMoving", true);
+       anim.SetFloat("moveX", (moveSpots[randomSpot].position.x - transform.position.x ));
+       anim.SetFloat("moveY", (moveSpots[randomSpot].position.y - transform.position.y ));       
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
         /*Where NPC will move from first(current position) 
           and where NPC will move to then (random position from 
@@ -51,6 +57,7 @@ public class NPCPatrol : MonoBehaviour
                 waitTime = startWaitTime;
             } else
             {
+                anim.SetBool("isMoving", false);
                 waitTime -= Time.deltaTime;
             }
             /*Will Check if time for the NPC to move to the next random position.
