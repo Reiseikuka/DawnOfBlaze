@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Hartalian Club
+  m_EditorClassIdentifier: 
+  id: 14
+  equipmentName: Hartalian Club
+  value: 0
+  icon: {fileID: 21300000, guid: 0a7e003e8a9907d44b8b1b35bc555ad5, type: 3}
+  description: 'A firm club made of iron that is mainly use for self-defense between
+    the Lupo society on the Hartal kingdom.  '
+  type: 1
+  damageModifier: 13
+  defenceModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  EnparalysisModifier: 0
+  EnbleedingModifier: 0
+  EnpoisoningModifier: 0
+  EnsleepModifier: 0
+  paralysisModifier: 0
+  bleedingModifier: 0
+  poisonModifier: 0
+  sleepModifier: 0
+  UsedByErick: 0
+  UsedByDarious: 0
+  UsedByAmber: 1
+  UsedByDarcy: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Blessed Enigma
+  m_EditorClassIdentifier: 
+  id: 37
+  equipmentName: Blessed Enigma
+  value: 0
+  icon: {fileID: 0}
+  description: 'Seems like only the handle is made of steel. The blade itself is
+    seems to be made of an ongoing energy contained on the crystal that the handle
+    has. '
+  type: 2
+  damageModifier: 12
+  defenceModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  EnparalysisModifier: 0
+  EnbleedingModifier: 0
+  EnpoisoningModifier: 0
+  EnsleepModifier: 0
+  paralysisModifier: 0
+  bleedingModifier: 0
+  poisonModifier: 0
+  sleepModifier: 0
+  UsedByErick: 0
+  UsedByDarious: 1
+  UsedByAmber: 0
+  UsedByDarcy: 0

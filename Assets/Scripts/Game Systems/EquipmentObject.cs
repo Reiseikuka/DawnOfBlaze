@@ -12,7 +12,7 @@ public enum EquipmentType
 //What kind of Equipment it is? An Armor or a Weapon?
 
 
-[CreateAssetMenu(fileName = "New Equipment Object", menuName = "EquipmentObjects")]
+[CreateAssetMenu(fileName = "New Equipment Object", menuName = "Inventory System/Items/Equipment")]
 public class EquipmentObject : ScriptableObject
 {
 
@@ -27,7 +27,7 @@ public class EquipmentObject : ScriptableObject
     //Name of the Equipment 
 
     public int value;
-    //If we sell the Equipment Object to the stores, it needs a monetary value.
+    //For selling purposes, the Equipment Object needs a monetary value.
 
     public Sprite icon;
     //How the Equipment looks
@@ -42,7 +42,7 @@ public class EquipmentObject : ScriptableObject
     [Header("Stats Details")]
     public int damageModifier;
     //Is the equipment a Weapon that gives more Strength?. Adds more ATK by using this weapon
-    public int armorModifier;
+    public int defenceModifier;
     //Is the equipment an Armor that gives more Defence?. Adds more DEF by using this weapon
     public int wisdomModifier;
     /*Does the equipment give a Magic Boost as well?. Adds more WIS by using this weapon */  
@@ -68,5 +68,14 @@ public class EquipmentObject : ScriptableObject
     public int sleepModifier;
     //Adds more chance to resist more on getting sleepy with this Armor.
 
-
+    /*---------------------------- VARIABLES FOR INFO PURPOSES RELATED TO WHO CAN USE IT ----------------------------*/
+    [Header("Stats Details")]
+    public bool UsedByErick;
+    //Can the equipment be used by Erick?
+    public bool UsedByDarious;
+    //Can the equipment be used by Darious?
+    public bool UsedByAmber;
+    //Can the equipment be used by Amber?
+    public bool UsedByDarcy;
+    //Can the equipment be used by Darcy?
 }

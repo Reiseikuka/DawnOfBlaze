@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Fourth Mortis
+  m_EditorClassIdentifier: 
+  id: 34
+  equipmentName: Fourth Mortis
+  value: 0
+  icon: {fileID: 21300000, guid: 117dcddd7441635428c04fe62cda4901, type: 3}
+  description: 'Reliability and accuracy goes hand to hand with this multi shot revolving
+    firearm. It takes one turn after use to use again due the reloading. '
+  type: 2
+  damageModifier: 50
+  defenceModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  EnparalysisModifier: 16
+  EnbleedingModifier: 0
+  EnpoisoningModifier: 0
+  EnsleepModifier: 0
+  paralysisModifier: 0
+  bleedingModifier: 0
+  poisonModifier: 0
+  sleepModifier: 0
+  UsedByErick: 1
+  UsedByDarious: 0
+  UsedByAmber: 0
+  UsedByDarcy: 0

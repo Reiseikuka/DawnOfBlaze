@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Judgement Mace
+  m_EditorClassIdentifier: 
+  id: 16
+  equipmentName: Judgement Mace
+  value: 0
+  icon: {fileID: 21300000, guid: d272b364310f82c4cbba0e26a5cbeb0e, type: 3}
+  description: "There is a note within the following message on the weapon: \u201CTo
+    the goddesses that take care of our existence is to see the proper ending of
+    a soul that ends its spawn on Akvos, but to you dear wielder, is your duty to
+    send the vile and rotten to hell\u201D"
+  type: 1
+  damageModifier: 74
+  defenceModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  EnparalysisModifier: 0
+  EnbleedingModifier: 0
+  EnpoisoningModifier: 0
+  EnsleepModifier: 0
+  paralysisModifier: 0
+  bleedingModifier: 0
+  poisonModifier: 0
+  sleepModifier: 0
+  UsedByErick: 0
+  UsedByDarious: 0
+  UsedByAmber: 1
+  UsedByDarcy: 0

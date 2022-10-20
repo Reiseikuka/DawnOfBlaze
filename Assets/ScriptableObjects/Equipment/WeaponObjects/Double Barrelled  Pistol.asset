@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Double Barrelled  Pistol
+  m_EditorClassIdentifier: 
+  id: 29
+  equipmentName: Double Barrelled  Pistol
+  value: 0
+  icon: {fileID: 21300000, guid: beb288415887da74a9ffdd30c45a26ce, type: 3}
+  description: 'Sometimes one single hit could not make the job, hence why with the
+    proper tools and parts, this gun became a reality. Due the mechanism, it lacks
+    effectivity on a long distance, yet it is deadly on a close encounter. '
+  type: 2
+  damageModifier: 22
+  defenceModifier: 0
+  wisdomModifier: 0
+  speedModifier: 0
+  EnparalysisModifier: 7
+  EnbleedingModifier: 0
+  EnpoisoningModifier: 0
+  EnsleepModifier: 0
+  paralysisModifier: 0
+  bleedingModifier: 0
+  poisonModifier: 0
+  sleepModifier: 0
+  UsedByErick: 1
+  UsedByDarious: 0
+  UsedByAmber: 0
+  UsedByDarcy: 0

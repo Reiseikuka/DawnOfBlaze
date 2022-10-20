@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3284a89aba4ef419c5de45ed960a4b, type: 3}
+  m_Name: Armor of Haunted Protection
+  m_EditorClassIdentifier: 
+  id: 56
+  equipmentName: Armor of Haunted Protection
+  value: 0
+  icon: {fileID: 0}
+  description: A Blacksmith claimed that his grandfather helps to design and create
+    this armor, which was good enough to save him from going to an asylum.
+  type: 0
+  damageModifier: 0
+  defenceModifier: 38
+  wisdomModifier: 12
+  speedModifier: 0
+  EnparalysisModifier: 0
+  EnbleedingModifier: 0
+  EnpoisoningModifier: 0
+  EnsleepModifier: 0
+  paralysisModifier: 0
+  bleedingModifier: 0
+  poisonModifier: 0
+  sleepModifier: 0
+  UsedByErick: 0
+  UsedByDarious: 0
+  UsedByAmber: 1
+  UsedByDarcy: 0

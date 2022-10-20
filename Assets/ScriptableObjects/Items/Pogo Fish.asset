@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dcfb7327086c7244b03e57baa422313, type: 3}
+  m_Name: Pogo Fish
+  m_EditorClassIdentifier: 
+  id: 75
+  itemName: Pogo Fish
+  value: 0
+  icon: {fileID: 21300000, guid: fe9751396bb18234d81dcfd516e6b878, type: 3}
+  description: 'Healthy and popular due to its non-fishy taste. '
+  type: 0
+  restoreHealthValue: 28
+  restoreIPValue: 14
+  FavoriteOfErick: 0
+  FavoriteOfDarious: 1
+  FavoriteOfAmber: 0
+  FavoriteOfDarcy: 0
