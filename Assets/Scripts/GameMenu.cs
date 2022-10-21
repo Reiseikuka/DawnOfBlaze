@@ -49,7 +49,9 @@ public class GameMenu : MonoBehaviour
 
     void Start()
     {
-
+        theMenu.SetActive(false);
+        GameManager.instance.gameMenuOpen = false;
+        CloseMenu(); 
     }
 
     void Update()
@@ -177,4 +179,22 @@ public class GameMenu : MonoBehaviour
     /* Control showing those buttons and the text that should 
        be on the window in relation to the characters*/
     /*Update the information that is shown*/
+
+    /*---------------------------- SPECIFIC WINDOWS ACTIONS----------------------------*/
+    public void OpenCloseInventoryPanel()
+    {
+        theMenu.SetActive(!theMenu.activeSelf);
+        //UpdateMainStats();
+        //GameManager.instance.gameMenuOpen = true;
+        windows[0].SetActive(!windows[0].activeSelf);
+    }
+
+    public void OpenCloseStatsPanel()
+    {
+        
+        theMenu.SetActive(!theMenu.activeSelf);
+        OpenStatus();
+        windows[1].SetActive(!windows[1].activeSelf);
+    }
+    
 }

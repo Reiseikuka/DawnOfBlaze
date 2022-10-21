@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99647b63038e7564d8ce93a36a6c88ca, type: 3}
-  m_Name: Inventory
+  m_Name: TestInventory
   m_EditorClassIdentifier: 
   Container: []

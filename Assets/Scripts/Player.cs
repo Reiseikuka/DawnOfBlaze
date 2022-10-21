@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
      private float Movementspeed = 4f ;
     //Speed in which the player will move on the overworld
@@ -20,7 +20,9 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     //reference to our animator
 
-
+    public InventoryObject inventory;
+    //reference to inventory
+    
     public VectorValue startingPosition;
 
 
@@ -64,4 +66,18 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2D.MovePosition(rb2D.position + direction * Movementspeed * Time.fixedDeltaTime);
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+       var item = other.GetComponent<ItemHolder>();
+       if (item)
+       {
+         inventory.AddItem(item.item, 1);
+         Destroy(other.gameObject);
+       }
+       /*If an item is found, add it to the inventory and delete it from
+         the overworld*/
+    }
+    /*Will trigger everytime the character interacts with 
+      an item object on the world.*/
 }
