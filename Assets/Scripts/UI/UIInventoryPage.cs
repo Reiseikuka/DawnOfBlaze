@@ -15,6 +15,9 @@ public class UIInventoryPage : MonoBehaviour
     [SerializeField]
     private UIInventoryDescription itemDescription;
 
+    [SerializeField]
+    private MouseFollower mouseFollower;
+
     List<UIInventoryItem> listOfUIItems = new List<UIInventoryItem>();
     /*Simple List of UI Inventory Items List of UI Items
       equals a new list*/
@@ -33,7 +36,8 @@ public class UIInventoryPage : MonoBehaviour
       Hide(); 
       /*If we let alive the Menu open in the inspector, 
         it will hide automatically*/
-        itemDescription.ResetDescription();
+      mouseFollower.Toggle(false);
+      itemDescription.ResetDescription();
     }
 
     public void InitializeInventoryUI(int inventorysize)
@@ -62,7 +66,7 @@ public class UIInventoryPage : MonoBehaviour
 
     private void HandleEndDrag(UIInventoryItem obj)
     {
-
+       mouseFollower.Toggle(false);
     }
 
     private void HandleSwap(UIInventoryItem obj)
@@ -72,12 +76,14 @@ public class UIInventoryPage : MonoBehaviour
 
     private void HandleBeginDrag(UIInventoryItem obj)
     {
-
+       mouseFollower.Toggle(true);
+       mouseFollower.SetData(image, quantity);
     }
 
     private void HandleItemSelection(UIInventoryItem obj)
     {
        itemDescription.SetDescription(image, title, description);
+       listOfUIItems[0].Select();
     }
 
     public void Show()
