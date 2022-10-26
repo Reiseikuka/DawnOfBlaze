@@ -5,7 +5,8 @@ using UnityEngine.UI;
 using System;
 using UnityEngine.EventSystems;
 
-public class UIInventoryItem : MonoBehaviour
+public class UIInventoryItem : MonoBehaviour, IPointerClickHandler,
+    IBeginDragHandler, IEndDragHandler, IDropHandler, IDragHandler
 {
     [SerializeField]
     private Image itemImage;
@@ -19,9 +20,9 @@ public class UIInventoryItem : MonoBehaviour
     private Image borderImage;
     //To Disable or Enabling the border around the Image if selected
 
-    public event Action<UIInventoryItem> OnItemClicked,
-      OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
-      OnRightMouseBtnClick;
+    public event Action<UIInventoryItem> OnItemClicked, 
+        OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
+        OnRightMouseBtnClick;
     /*Will allow the Player to select and swap item objects on the inventory,
       however, the logic behind these actions, will be set on UIInventoryPage.
       Here? It will only enable the actions to be available for hte player*/
@@ -38,7 +39,7 @@ public class UIInventoryItem : MonoBehaviour
     public void ResetData()
     {
         this.itemImage.gameObject.SetActive(false);
-        empty = true;
+        this.empty = true;
     }
     /*If we disable the image, we hide the quantity of the Item,
       making the Item Slot Item empty and so noticing the bool
@@ -46,7 +47,7 @@ public class UIInventoryItem : MonoBehaviour
 
     public void Deselect()
     {
-        borderImage.enabled = false;
+        this.borderImage.enabled = false;
     }
     /*Deselect involves the border image for the Item Slots.*/
 
@@ -55,7 +56,7 @@ public class UIInventoryItem : MonoBehaviour
         this.itemImage.gameObject.SetActive(true);
         this.itemImage.sprite = sprite;
         this.quantityTxt.text = quantity + "";
-        empty = false;
+        this.empty = false;
     }
     /* If we want to set Data, we want to know about
        any specifics of our item.*/
@@ -66,20 +67,37 @@ public class UIInventoryItem : MonoBehaviour
     }
     /*Select involves the border image for the Item Slots*/
 
-    public void OnBeginDrag()
+    public void OnPointerClick(PointerEventData pointerData)
+    {
+        if(empty)
+          return;
+        if (pointerData.button == PointerEventData.InputButton.Right)
+        {
+            OnRightMouseBtnClick?.Invoke(this);
+        }
+        else
+        {
+            OnItemClicked?.Invoke(this);
+        }       
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        OnItemEndDrag?.Invoke(this);    
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
     {
         if (empty)
             return;
-        OnItemBeginDrag?.Invoke(this);
+            OnItemBeginDrag?.Invoke(this);
     }
-    /*Will check if the item is empty do not drag,
-      if is not empty, inform another function about this to
-      begin dragging the Item*/
 
-    public void OnDrop()
+    public void OnDrop(PointerEventData eventData)
     {
         OnItemDroppedOn?.Invoke(this);
     }
+
     /*When we drop our item in another item, we
       inform our UI. This is for the purpose of
       deselecting the current item and selecting
@@ -90,26 +108,15 @@ public class UIInventoryItem : MonoBehaviour
       somewhere else, we want to reset everything back to
       what it was earlier.*/
 
-    public void OnEndDrag()
-    {
-        OnItemEndDrag?.Invoke(this);
-    }
 
-    public void OnPointerClick(BaseEventData data)
-    {
-        PointerEventData pointerData = (PointerEventData) data;
-        if (pointerData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightMouseBtnClick?.Invoke(this);
-        }
-        else
-        {
-            OnItemClicked?.Invoke(this);
-        }
-    }
     /*Data of the position of the item is passed as well with which
       button  has been used to click on the item object.
       By creating a pointer event data, we convert our data to 
       PointerEventData because we will use the Pointer of our 
       Mouse to click on*/
+
+    public void OnDrag(PointerEventData eventData)
+    {
+
+    }
 }
