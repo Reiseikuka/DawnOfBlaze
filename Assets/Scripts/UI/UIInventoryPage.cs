@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIInventoryPage : MonoBehaviour
 {
@@ -26,14 +25,23 @@ public class UIInventoryPage : MonoBehaviour
       we create, so that going by this list we are going to
       be able to get the index and reference it against the
       inventory data*/
-
-    public Sprite image, image2;
-    public int quantity;
-    public string title, description;
     
     private int currentlyDraggedItemIndex = -1;
     /*We need to have the index of this item that was dropped on and we need
       to have the item that was dragged that we are dragged using our mouse*/
+
+    public event Action<int> OnDescriptionRequested,
+            OnItemActionRequested,
+            OnStartDragging;
+
+/*When we click our left mouse button on our item to get the border 
+  popping and display the description so we need the ask our AI 
+  about our data. Right mouse button click will show the item actions
+  that we can take*/
+
+    public event Action<int, int> OnSwapItems;
+/* Pass the indexes, the one of the item being dragged and the second item in which
+   the dragged item will be dropped*/
 
     private void Awake()
     {
@@ -63,6 +71,15 @@ public class UIInventoryPage : MonoBehaviour
           an inventory size and be able to initialize our inventory UI*/
     }
 
+    public void UpdateData(int itemIndex, 
+        Sprite itemImage, int itemQuantity)
+    {
+        if (listOfUIItems.Count > itemIndex)
+        {
+            listOfUIItems[itemIndex].SetData(itemImage, itemQuantity);
+        }
+    }
+
     private void HandleShowItemActions(UIInventoryItem inventoryItemUI)
     {
 
@@ -70,7 +87,7 @@ public class UIInventoryPage : MonoBehaviour
 
     private void HandleEndDrag(UIInventoryItem inventoryItemUI)
     {
-        mouseFollower.Toggle(false);
+        ResetDraggedItem();
     }
 
     private void HandleSwap(UIInventoryItem inventoryItemUI)
@@ -82,10 +99,11 @@ public class UIInventoryPage : MonoBehaviour
             currentlyDraggedItemIndex = -1;
             return;
         }
-        listOfUIItems[currentlyDraggedItemIndex]
-            .SetData(index == 0 ? image : image2, quantity);
-        listOfUIItems[index]
-            .SetData(currentlyDraggedItemIndex == 0 ? image : image2, quantity);
+        OnSwapItems?.Invoke(currentlyDraggedItemIndex, index);
+    }
+    
+    private void ResetDraggedItem()
+    {
         mouseFollower.Toggle(false);
         currentlyDraggedItemIndex = -1;
     }
@@ -96,31 +114,56 @@ public class UIInventoryPage : MonoBehaviour
         if (index == -1)
             return;
         currentlyDraggedItemIndex = index;
+        HandleItemSelection(inventoryItemUI);
+        OnStartDragging?.Invoke(index);
+        /*Our inventory controller will be responsible for deciding
+          if we should quit our dragged item or not, instead of the
+          inventory itself*/
+    }
 
+    public void CreateDraggedItem(Sprite sprite, int quantity)
+    {
         mouseFollower.Toggle(true);
-        mouseFollower.SetData(index == 0 ? image : image2, quantity);
+        mouseFollower.SetData(sprite, quantity);      
     }
 
     private void HandleItemSelection(UIInventoryItem inventoryItemUI)
     {
-        itemDescription.SetDescription(image, title, description);
-        listOfUIItems[0].Select();
+        int index = listOfUIItems.IndexOf(inventoryItemUI);
+        if (index == -1)
+            return;
+        OnDescriptionRequested?.Invoke(index);
     }
+    /*If we select and item in our inventory and we have this on our list,
+      we pass the index of the item and the inventory controller will handle
+      the description itself*/
 
     public void Show()
     {
         gameObject.SetActive(true);
-        itemDescription.ResetDescription();
-        /*Only when we have some data to fill in our inventory*/
-
-        listOfUIItems[0].SetData(image, quantity);
-        listOfUIItems[1].SetData(image2, quantity);
+        ResetSelection();
     }
     //Show Inventory Page
+
+    private void ResetSelection()
+    {
+        itemDescription.ResetDescription();
+        /*Only when we have some data to fill in our inventory*/
+        DeselectAllItems();
+    }
+
+    private void DeselectAllItems()
+    {
+        foreach (UIInventoryItem item in listOfUIItems)
+        {
+            item.Deselect();
+        }
+    }
 
     public void Hide()
     {
         gameObject.SetActive(false);
+        ResetDraggedItem();
     }
     //Hide Inventory Page
 }
