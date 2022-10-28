@@ -71,6 +71,14 @@ public class UIInventoryPage : MonoBehaviour
           an inventory size and be able to initialize our inventory UI*/
     }
 
+    internal void UpdateDescription(int itemIndex, Sprite itemImage, string name, string description)
+    {
+        itemDescription.SetDescription(itemImage, name, description);
+        DeselectAllItems();
+        listOfUIItems[itemIndex].Select();
+    }
+    //Update our description
+
     public void UpdateData(int itemIndex, 
         Sprite itemImage, int itemQuantity)
     {
@@ -145,7 +153,7 @@ public class UIInventoryPage : MonoBehaviour
     }
     //Show Inventory Page
 
-    private void ResetSelection()
+    public void ResetSelection()
     {
         itemDescription.ResetDescription();
         /*Only when we have some data to fill in our inventory*/
