@@ -15,6 +15,11 @@ using UnityEngine;
         /*Get the size to have the correct amount of fields
         inside our inventory content. */
 
+        public event Action<Dictionary<int, InventoryItem>> OnInventoryUpdated;
+        /*This will pass the dictionary into an inventory item
+          and we  are going to call this on Inventory Updated
+          or our Inventory Changed*/
+
         public void Initialize()
         {
             inventoryItems = new List<InventoryItem>();
@@ -35,11 +40,16 @@ using UnityEngine;
                         item = item,
                         quantity = quantity
                     };
+                    return;
                 }
             }
         }
         /*If we find an empty item, we can add to it the item we are adding*/
 
+        public void AddItem(InventoryItem item)
+        {
+            AddItem(item.item, item.quantity);
+        }
         public Dictionary<int, InventoryItem> GetCurrentInventoryState()
         {
             Dictionary<int, InventoryItem> returnValue = 
@@ -64,6 +74,29 @@ using UnityEngine;
 
         /*Since  we are clicking on the UI item inside our
         inventory, we should have said item */
+
+        public void SwapItems(int itemIndex_1, int itemIndex_2)
+        {
+            InventoryItem item1 = inventoryItems[itemIndex_1];
+            inventoryItems[itemIndex_1] = inventoryItems[itemIndex_2];
+            inventoryItems[itemIndex_2] = item1;
+            InformAboutChange();
+        }
+        /*Will modify the list so we are going to change the content of  
+          the inventory and we will need another method to inform about the 
+          changes, because  if we have the UI, UI doesnt store the Data. Its
+          the Inventory Data  to inform the inventory controller which will
+          inform the UI later*/
+
+        private void InformAboutChange()
+        {
+            OnInventoryUpdated?.Invoke(GetCurrentInventoryState());
+        }
+        /* Check if something is assigned(like a method) to this event.
+           If it is, we are going to invoke and we are going to call
+           a GetCurrentInventoryState since we all need to do is generate
+           the dictionary that will contain the indexes of the items that
+           have changed as well with the item data itself.  */
     }    
     
         [Serializable]

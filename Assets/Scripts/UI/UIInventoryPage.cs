@@ -71,6 +71,15 @@ public class UIInventoryPage : MonoBehaviour
           an inventory size and be able to initialize our inventory UI*/
     }
 
+    internal void ResetAllItems()
+    {
+        foreach (var item in listOfUIItems)
+        {
+            item.ResetData();
+            item.Deselect();
+        }
+    }
+    
     internal void UpdateDescription(int itemIndex, Sprite itemImage, string name, string description)
     {
         itemDescription.SetDescription(itemImage, name, description);
@@ -108,6 +117,7 @@ public class UIInventoryPage : MonoBehaviour
             return;
         }
         OnSwapItems?.Invoke(currentlyDraggedItemIndex, index);
+        HandleItemSelection(inventoryItemUI);
     }
     
     private void ResetDraggedItem()
