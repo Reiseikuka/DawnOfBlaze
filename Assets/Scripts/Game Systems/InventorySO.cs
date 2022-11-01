@@ -10,6 +10,7 @@ namespace Inventory.Model
     {
         [SerializeField]
         private List<InventoryItem> inventoryItems;
+
         [field: SerializeField]
         public int Size { get; private set; } = 10;
 
@@ -39,7 +40,12 @@ namespace Inventory.Model
                 }
             }
         }
+            /*We want to return the items that can't be stored due
+              capacity limitation.*/
 
+            /*We want to update it with the item that is added in case
+              we are adding the item when we have the inventory open.*/
+        
         public void AddItem(InventoryItem item)
         {
             AddItem(item.item, item.quantity);
@@ -99,7 +105,6 @@ namespace Inventory.Model
         public int quantity;
         public ItemSO item;
         public bool IsEmpty => item == null;
-
         public InventoryItem ChangeQuantity(int newQuantity)
         {
             return new InventoryItem
@@ -122,3 +127,4 @@ namespace Inventory.Model
         the way that we  store the value in a way that is not  
         easily modifiable  from other scripts.*/
 }
+
