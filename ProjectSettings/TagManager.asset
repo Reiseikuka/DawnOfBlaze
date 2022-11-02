@@ -53,6 +53,9 @@ TagManager:
   - name: NPCS
     uniqueID: 807878767
     locked: 0
+  - name: Items
+    uniqueID: 651778247
+    locked: 0
   - name: BuildingsLower
     uniqueID: 1104233073
     locked: 0
