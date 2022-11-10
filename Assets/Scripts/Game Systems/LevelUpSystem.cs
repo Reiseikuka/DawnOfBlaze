@@ -61,7 +61,7 @@ public class LevelUpSystem : MonoBehaviour
     private int[] lvl = new int [4];
     //Array that will hold the current level of each character
 
-    private int maxLevel = 50;
+    public int maxLevel = 50;
     //To set the max Level allowed  to grow for all of the party members. It would be 50.
 
     private int[] currentXP = new int [4];
@@ -70,7 +70,7 @@ public class LevelUpSystem : MonoBehaviour
      will change to a higher number once the character gains experience.
      currentExp  should reset to 0 each time it levels up.*/
 
-    private int[] requiredXP = new int [4];
+    public int[] requiredXP = new int [4];
     //Array that will hold the XP needed(of each character) to go towards the next level
     /*Amount of Experience needed to reach to the next level. Each level would require a different
       amount of XP points according to our formula */

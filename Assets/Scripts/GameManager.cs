@@ -10,33 +10,16 @@ public class GameManager : MonoBehaviour
     /*Array needed for the amount of characters
       Stats for  all our playable characters*/ 
 
-    public bool gameMenuOpen;
-    //Would be use to stop character from moving when the Menu window is open
-
-    // Start is called before the first frame update
     void Start()
     {
         instance = this;
-       
-       // DontDestroyOnLoad(GameObject);
-        //We don't want Game Manager to be Destroy when another scene is loading
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(gameMenuOpen)
-        {
-            
-            //If the Menu is open, have the character static without moving
-        }else
-        {
-            
-            //If the Menu is not open,  allow movement for the character in overworld
-        }
+        DontDestroyOnLoad(gameObject);
+        //Dont destroy between loading different scenes.
     }
+    
 
-    /*The intention of the Game Manager (at least for now) is to hold
-      the four Character Stats for us through the entire game*/
+    /*Game Manager will carry the Player Data/Characters Data meaning 
+      that the The intention of the Game Manager (at least for now) 
+      is to hold the four Character Stats for us through the entire game*/
 }
